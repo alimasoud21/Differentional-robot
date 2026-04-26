@@ -1,0 +1,49 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 50 # Increased from Josh's 30 to match your old 50Hz control loop
+    # use_sim_time: false # Keep commented or set to false for your real Arduino Mega
+
+    diff_cont:
+      type: diff_drive_controller/DiffDriveController
+
+    joint_broad:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+diff_cont:
+  ros__parameters:
+    publish_rate: 50.0
+
+    # Using Josh's frame structure to ensure his standard URDF works out of the box
+    base_frame_id: base_link
+    
+    # Brought over from your old config so your Nav2 stack knows where odometry is
+    odom_frame_id: odom
+    enable_odom_tf: true
+
+    # IMPORTANT: We are using Josh's default joint names here. 
+    # When we edit robot_core.xacro, we must name the joints exactly this.
+    left_wheel_names: ['left_wheel_joint']
+    right_wheel_names: ['right_wheel_joint']
+    
+    # Injected your specific physical AMR dimensions
+    wheel_separation: 0.52993
+    wheel_radius: 0.065
+
+    use_stamped_vel: false
+
+    # Injected your safe velocity and acceleration limits for the heavy payload
+    linear:
+      x:
+        has_velocity_limits    : true
+        max_velocity           : 0.5
+        min_velocity           : -0.5
+        has_acceleration_limits: true
+        max_acceleration       : 1.0
+
+    angular:
+      z:
+        has_velocity_limits    : true
+        max_velocity           : 1.0
+        min_velocity           : -1.0 # Standardized inverse based on your max
+        has_acceleration_limits: true
+        max_acceleration       : 2.0

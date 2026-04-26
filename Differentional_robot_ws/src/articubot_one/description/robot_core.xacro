@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <material name="silver">
+        <color rgba="0.75294 0.75294 0.75294 1"/>
+    </material>
+
+    <link name="base_footprint"/>
+
+    <joint name="base_footprint_joint" type="fixed">
+        <origin xyz="0 0 0.288" rpy="0 0 0"/>
+        <parent link="base_footprint"/>
+        <child  link="base_link"/>
+    </joint>
+
+    <link name="base_link">
+        <inertial>
+            <origin xyz="-0.0061513 0.0013461 0.15501" rpy="0 0 0"/>
+            <mass value="27.326"/>
+            <inertia
+                ixx="0.25736"  ixy="8.4531E-05" ixz="0.002119"
+                iyy="0.59939"  iyz="-4.2231E-06"
+                izz="0.82139"/>
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://articubot_one/meshes/base_link.STL"/>
+            </geometry>
+            <material name="silver"/>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://articubot_one/meshes/base_link.STL"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="wheel_right_Link">
+        <inertial>
+            <origin xyz="9.54357148863494E-09 -0.00101433110490345 7.60947782563193E-09" rpy="0 0 0"/>
+            <mass value="0.104230119036037"/>
+            <inertia
+                ixx="0.000142202511807058" ixy="1.87424314835491E-11" ixz="-4.39608467782352E-09"
+                iyy="0.000225747259615303" iyz="2.29082922947002E-11"
+                izz="0.00014220736480723"/>
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://articubot_one/meshes/wheel_right_Link.STL"/>
+            </geometry>
+            <material name="silver"/>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://articubot_one/meshes/wheel_right_Link.STL"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <joint name="right_wheel_joint" type="continuous">
+        <origin xyz="-0.10473 0.26497 -0.288" rpy="0 0 0"/>
+        <parent link="base_link"/>
+        <child  link="wheel_right_Link"/>
+        <axis xyz="0 1 0"/>
+        <limit effort="10" velocity="10"/>
+        <dynamics damping="0.1" friction="0.1"/>
+    </joint>
+
+    <link name="wheel_left_Link">
+        <inertial>
+            <origin xyz="-1.18529686066182E-08 0.026348403034341 2.82100109938455E-09" rpy="0 0 0"/>
+            <mass value="0.104230118835372"/>
+            <inertia
+                ixx="0.000142200000425317" ixy="2.67212376706658E-11" ixz="9.11474302281348E-10"
+                iyy="0.000225747259616104" iyz="-1.27113603131E-11"
+                izz="0.000142209876162657"/>
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://articubot_one/meshes/wheel_left_Link.STL"/>
+            </geometry>
+            <material name="silver"/>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://articubot_one/meshes/wheel_left_Link.STL"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <joint name="left_wheel_joint" type="continuous">
+        <origin xyz="-0.10473 -0.26497 -0.288" rpy="0 0 0"/>
+        <parent link="base_link"/>
+        <child  link="wheel_left_Link"/>
+        <axis xyz="0 1 0"/>
+        <limit effort="10" velocity="10"/>
+        <dynamics damping="0.1" friction="0.1"/>
+    </joint>
+
+    <link name="laser">
+        <inertial>
+            <origin xyz="0.0117920141460623 -0.000525215828001024 -0.0354994360113587" rpy="0 0 0"/>
+            <mass value="0.0941041807629096"/>
+            <inertia
+                ixx="2.79092038083052E-05"  ixy="-5.49954548323984E-08" ixz="-3.35026954692444E-07"
+                iyy="4.43534100893701E-05"  iyz="1.36688389098646E-07"
+                izz="6.94746733765802E-05"/>
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://articubot_one/meshes/lidar_Link.STL"/>
+            </geometry>
+            <material name="silver"/>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://articubot_one/meshes/lidar_Link.STL"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <joint name="lidar_joint" type="fixed">
+        <origin xyz="0.31879 0.00082061 0.062629" rpy="0 0 0"/>
+        <parent link="base_link"/>
+        <child  link="laser"/>
+    </joint>
+
+    <link name="imu_Link">
+        <inertial>
+            <origin xyz="0.000813594970481946 -5.56825045084919E-05 0.000334718190329597" rpy="0 0 0"/>
+            <mass value="0.00100170070350823"/>
+            <inertia
+                ixx="3.03936181819934E-08" ixy="1.30603108852815E-11" ixz="6.24614435382542E-14"
+                iyy="1.69531813597029E-08" iyz="-3.3697679363125E-18"
+                izz="4.63286907007224E-08"/>
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://articubot_one/meshes/imu_Link.STL"/>
+            </geometry>
+            <material name="silver"/>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://articubot_one/meshes/imu_Link.STL"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <joint name="imu_joint" type="fixed">
+        <origin xyz="0.023259 0.00014994 -0.22" rpy="0 0 0"/>
+        <parent link="base_link"/>
+        <child  link="imu_Link"/>
+    </joint>
+
+    <link name="caster_Link">
+        <inertial>
+            <origin xyz="0.0164675298193973 -0.0175283412278801 0.0391290952720008" rpy="0 0 0"/>
+            <mass value="0.937323688183552"/>
+            <inertia
+                ixx="0.000679456890626848" ixy="-4.27351828212172E-07" ixz="-6.71828637541444E-05"
+                iyy="0.000661101606198562" iyz="-8.96643494229295E-07"
+                izz="0.000838481722787729"/>
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://articubot_one/meshes/caster_Link.STL"/>
+            </geometry>
+            <material name="silver"/>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://articubot_one/meshes/caster_Link.STL"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <joint name="caster_joint" type="fixed">
+        <origin xyz="0.23527 0.017652 -0.3085" rpy="0 0 0"/>
+        <parent link="base_link"/>
+        <child  link="caster_Link"/>
+    </joint>
+
+</robot>
