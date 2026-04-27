@@ -54,14 +54,15 @@ def generate_launch_description():
         package="controller_manager",
         executable="ros2_control_node",
         parameters=[{'robot_description': robot_description},
-                    controller_params_file]
+                    controller_params_file],
+        remappings=[('/diff_cont/odom', '/odom')]            
     )
 
     delayed_controller_manager = TimerAction(period=3.0, actions=[controller_manager])
 
     diff_drive_spawner = Node(
         package="controller_manager",
-        executable="spawner.py",
+        executable="spawner",
         arguments=["diff_cont"],
     )
 
@@ -74,7 +75,7 @@ def generate_launch_description():
 
     joint_broad_spawner = Node(
         package="controller_manager",
-        executable="spawner.py",
+        executable="spawner",
         arguments=["joint_broad"],
     )
 

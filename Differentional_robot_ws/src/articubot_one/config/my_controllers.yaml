@@ -5,16 +5,20 @@ controller_manager:
 
     diff_cont:
       type: diff_drive_controller/DiffDriveController
-
+      ros__parameters:
+        base_frame_id: base_footprint 
+    
     joint_broad:
-      type: joint_state_broadcaster/JointStateBroadcaster
+        type: joint_state_broadcaster/JointStateBroadcaster
 
 diff_cont:
   ros__parameters:
     publish_rate: 50.0
 
+    odom_topic: odom  
+
     # Using Josh's frame structure to ensure his standard URDF works out of the box
-    base_frame_id: base_link
+    base_frame_id: base_footprint
     
     # Brought over from your old config so your Nav2 stack knows where odometry is
     odom_frame_id: odom

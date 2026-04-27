@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.002616] (-) JobUnselected: {'identifier': 'articubot_one'}
+[0.002769] (-) JobUnselected: {'identifier': 'diffdrive_arduino'}
+[0.002871] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.002923] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.002966] (serial) JobStarted: {'identifier': 'serial'}
+[0.098465] (-) TimerEvent: {}
+[0.199644] (-) TimerEvent: {}
+[0.300653] (-) TimerEvent: {}
+[0.401433] (-) TimerEvent: {}
+[0.502438] (-) TimerEvent: {}
+[0.584738] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.592057] (serial) Command: {'cmd': ['/usr/bin/cmake', '/home/ali/Differentional-robot/Differentional_robot_ws/src/serial', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/ali/Differentional-robot/Differentional_robot_ws/install/serial'], 'cwd': '/home/ali/Differentional-robot/Differentional_robot_ws/build/serial', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ali'), ('GIT_ASKPASS', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ali'), ('OLDPWD', '/home/ali/Differentional-robot/Differentional_robot_ws/src'), ('TERM_PROGRAM_VERSION', '1.117.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-1d56388b-5753-492d-b217-281e8894a356.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install:/home/ali/perceptron_ws/install:/mnt/c/Users/HP/perceptron_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ali'), ('NAME', 'hp'), ('WSL_INTEROP', '/run/WSL/17641_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/bin/remote-cli:/home/ali/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-89b18544f1e46270.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/ali/.vscode-server/data/User/workspaceStorage/7522c7d0837fdf182a01af5027fd8942/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af6d472efb.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros:/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one:/home/ali/perceptron_ws/install/rplidar_ros:/home/ali/perceptron_ws/install/perceptron_driver:/home/ali/perceptron_ws/install/my_robot_slam:/home/ali/perceptron_ws/install/amr:/mnt/c/Users/HP/perceptron_ws/install/rplidar_ros:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/my_robot_slam:/mnt/c/Users/HP/perceptron_ws/install/amr:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ali/Differentional-robot/Differentional_robot_ws/build/serial'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ali/perceptron_ws/build/perceptron_driver:/home/ali/perceptron_ws/install/perceptron_driver/lib/python3.10/site-packages:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros:/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one:/home/ali/perceptron_ws/install/rplidar_ros:/home/ali/perceptron_ws/install/my_robot_slam:/home/ali/perceptron_ws/install/amr:/mnt/c/Users/HP/perceptron_ws/install/rplidar_ros:/mnt/c/Users/HP/perceptron_ws/install/my_robot_slam:/mnt/c/Users/HP/perceptron_ws/install/amr'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.603085] (-) TimerEvent: {}
+[0.683742] (serial) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.684512] (serial) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.685168] (serial) StderrLine: {'line': b'  CMake.\n'}
+[0.685722] (serial) StderrLine: {'line': b'\n'}
+[0.686178] (serial) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.686655] (serial) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.687324] (serial) StderrLine: {'line': b'\n'}
+[0.688110] (serial) StderrLine: {'line': b'\x1b[0m\n'}
+[0.703612] (-) TimerEvent: {}
+[0.804489] (-) TimerEvent: {}
+[0.905791] (-) TimerEvent: {}
+[1.006940] (-) TimerEvent: {}
+[1.108083] (-) TimerEvent: {}
+[1.209212] (-) TimerEvent: {}
+[1.310227] (-) TimerEvent: {}
+[1.411057] (-) TimerEvent: {}
+[1.512204] (-) TimerEvent: {}
+[1.613138] (-) TimerEvent: {}
+[1.696017] (serial) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.713488] (-) TimerEvent: {}
+[1.814793] (-) TimerEvent: {}
+[1.915980] (-) TimerEvent: {}
+[2.017300] (-) TimerEvent: {}
+[2.118486] (-) TimerEvent: {}
+[2.219293] (-) TimerEvent: {}
+[2.320310] (-) TimerEvent: {}
+[2.421361] (-) TimerEvent: {}
+[2.513999] (serial) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.521653] (-) TimerEvent: {}
+[2.622534] (-) TimerEvent: {}
+[2.723682] (-) TimerEvent: {}
+[2.824373] (-) TimerEvent: {}
+[2.925209] (-) TimerEvent: {}
+[3.014961] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.025580] (-) TimerEvent: {}
+[3.126648] (-) TimerEvent: {}
+[3.227430] (-) TimerEvent: {}
+[3.328340] (-) TimerEvent: {}
+[3.329223] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.354024] (serial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.355730] (serial) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.357552] (serial) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.370098] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.428546] (-) TimerEvent: {}
+[3.529526] (-) TimerEvent: {}
+[3.630595] (-) TimerEvent: {}
+[3.712018] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.730825] (-) TimerEvent: {}
+[3.735076] (serial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.736173] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.737893] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.831307] (-) TimerEvent: {}
+[3.932189] (-) TimerEvent: {}
+[4.033118] (-) TimerEvent: {}
+[4.134109] (-) TimerEvent: {}
+[4.234780] (-) TimerEvent: {}
+[4.335768] (-) TimerEvent: {}
+[4.437074] (-) TimerEvent: {}
+[4.537992] (-) TimerEvent: {}
+[4.638882] (-) TimerEvent: {}
+[4.740049] (-) TimerEvent: {}
+[4.841023] (-) TimerEvent: {}
+[4.941952] (-) TimerEvent: {}
+[5.042721] (-) TimerEvent: {}
+[5.143666] (-) TimerEvent: {}
+[5.244806] (-) TimerEvent: {}
+[5.345998] (-) TimerEvent: {}
+[5.446919] (-) TimerEvent: {}
+[5.547890] (-) TimerEvent: {}
+[5.648905] (-) TimerEvent: {}
+[5.749791] (-) TimerEvent: {}
+[5.850845] (-) TimerEvent: {}
+[5.951706] (-) TimerEvent: {}
+[6.052763] (-) TimerEvent: {}
+[6.153645] (-) TimerEvent: {}
+[6.254592] (-) TimerEvent: {}
+[6.355508] (-) TimerEvent: {}
+[6.456594] (-) TimerEvent: {}
+[6.557757] (-) TimerEvent: {}
+[6.658570] (-) TimerEvent: {}
+[6.759968] (-) TimerEvent: {}
+[6.768730] (serial) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:5 (find_package):\n'}
+[6.769514] (serial) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[6.769999] (serial) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[6.770581] (serial) StderrLine: {'line': b'  CMake did not find one.\n'}
+[6.771262] (serial) StderrLine: {'line': b'\n'}
+[6.771911] (serial) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[6.772257] (serial) StderrLine: {'line': b'  of the following names:\n'}
+[6.772637] (serial) StderrLine: {'line': b'\n'}
+[6.772944] (serial) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[6.773258] (serial) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[6.773659] (serial) StderrLine: {'line': b'\n'}
+[6.773983] (serial) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[6.774238] (serial) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[6.774565] (serial) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[6.774983] (serial) StderrLine: {'line': b'  installed.\n'}
+[6.775238] (serial) StderrLine: {'line': b'\n'}
+[6.779260] (serial) StderrLine: {'line': b'\x1b[0m\n'}
+[6.783583] (serial) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.792358] (serial) StdoutLine: {'line': b'See also "/home/ali/Differentional-robot/Differentional_robot_ws/build/serial/CMakeFiles/CMakeOutput.log".\n'}
+[6.796536] (serial) CommandEnded: {'returncode': 1}
+[6.860595] (-) TimerEvent: {}
+[6.891291] (serial) JobEnded: {'identifier': 'serial', 'rc': 1}
+[6.904748] (-) EventReactorShutdown: {}

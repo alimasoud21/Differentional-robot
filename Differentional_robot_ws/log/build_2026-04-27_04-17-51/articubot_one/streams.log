@@ -1,0 +1,66 @@
+[1.274s] Invoking command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble /usr/bin/cmake --build /home/ali/Differentional-robot/Differentional_robot_ws/build/articubot_one -- -j4 -l4
+[1.409s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.155s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.182s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.500s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.509s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.512s] -- Added test 'lint_cmake' to check CMake code style
+[5.513s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.520s] -- Added test 'xmllint' to check XML markup files
+[5.527s] -- Configuring done
+[5.543s] -- Generating done
+[5.552s] -- Build files have been written to: /home/ali/Differentional-robot/Differentional_robot_ws/build/articubot_one
+[5.614s] Invoked command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble /usr/bin/cmake --build /home/ali/Differentional-robot/Differentional_robot_ws/build/articubot_one -- -j4 -l4
+[5.625s] Invoking command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble /usr/bin/cmake --install /home/ali/Differentional-robot/Differentional_robot_ws/build/articubot_one
+[5.640s] -- Install configuration: ""
+[5.641s] -- Execute custom install script
+[5.643s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[5.646s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/config/empty.yaml
+[5.647s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/config/joystick.yaml
+[5.649s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/config/main.rviz
+[5.651s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/config/map.rviz
+[5.653s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
+[5.655s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[5.656s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/config/nav2_params.yaml
+[5.656s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/config/twist_mux.yaml
+[5.661s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[5.661s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[5.662s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/description/lidar.xacro
+[5.662s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/description/meshes/base_link.STL
+[5.665s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/description/meshes/caster_Link.STL
+[5.669s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/description/meshes/imu_Link.STL
+[5.670s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/description/meshes/lidar_Link.STL
+[5.671s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/description/meshes/wheel_left_Link.STL
+[5.672s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/description/meshes/wheel_right_Link.STL
+[5.673s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[5.673s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[5.674s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+[5.674s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/launch/joystick.launch.py
+[5.675s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py
+[5.676s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/launch/localization_launch.py
+[5.677s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/launch/navigation_launch.py
+[5.677s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/launch/online_async_launch.py
+[5.678s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
+[5.679s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[5.679s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/meshes/base_link.STL
+[5.703s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/meshes/caster_Link.STL
+[5.725s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/meshes/imu_Link.STL
+[5.753s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/meshes/lidar_Link.STL
+[5.782s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/meshes/wheel_left_Link.STL
+[5.805s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/meshes/wheel_right_Link.STL
+[5.826s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[5.828s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[5.829s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[5.830s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[5.830s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/environment/path.sh
+[5.832s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/environment/path.dsv
+[5.834s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/local_setup.bash
+[5.835s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/local_setup.sh
+[5.836s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/local_setup.zsh
+[5.836s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/local_setup.dsv
+[5.837s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/package.dsv
+[5.861s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[5.862s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[5.864s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[5.865s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/package.xml
+[5.877s] Invoked command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble /usr/bin/cmake --install /home/ali/Differentional-robot/Differentional_robot_ws/build/articubot_one

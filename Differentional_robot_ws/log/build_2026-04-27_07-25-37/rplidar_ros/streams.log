@@ -1,0 +1,31 @@
+[1.377s] Invoking command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ali/Differentional-robot/Differentional_robot_ws/build/rplidar_ros -- -j4 -l4
+[1.769s] [  5%] Built target rplidar_client
+[1.825s] [ 52%] Built target rplidar_node
+[1.871s] [100%] Built target rplidar_composition
+[2.228s] Invoked command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ali/Differentional-robot/Differentional_robot_ws/build/rplidar_ros -- -j4 -l4
+[2.238s] Invoking command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ali/Differentional-robot/Differentional_robot_ws/build/rplidar_ros
+[2.269s] -- Install configuration: ""
+[2.299s] -- Execute custom install script
+[2.315s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[2.315s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[2.315s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[2.316s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[2.316s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[2.316s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[2.319s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[2.319s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[2.319s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[2.319s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[2.320s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[2.320s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[2.320s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[2.321s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[2.323s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[2.323s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[2.342s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[2.347s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.347s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.349s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[2.350s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[2.351s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[2.361s] Invoked command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ali/Differentional-robot/Differentional_robot_ws/build/rplidar_ros

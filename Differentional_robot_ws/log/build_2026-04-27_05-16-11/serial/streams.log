@@ -1,0 +1,40 @@
+[0.891s] Invoking command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble /usr/bin/cmake --build /home/ali/Differentional-robot/Differentional_robot_ws/build/serial -- -j4 -l4
+[1.091s] [35m[1mConsolidate compiler generated dependencies of target serial[0m
+[1.133s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[1.167s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[1.194s] [ 28%] Built target serial
+[1.252s] [ 42%] Built target gtest
+[1.262s] [ 57%] Built target gtest_main
+[1.276s] [35m[1mConsolidate compiler generated dependencies of target serial_example[0m
+[1.324s] [35m[1mConsolidate compiler generated dependencies of target serial-test-timer[0m
+[1.325s] [35m[1mConsolidate compiler generated dependencies of target serial-test[0m
+[1.356s] [ 71%] Built target serial_example
+[1.499s] [ 85%] Built target serial-test-timer
+[1.502s] [100%] Built target serial-test
+[1.615s] Invoked command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble /usr/bin/cmake --build /home/ali/Differentional-robot/Differentional_robot_ws/build/serial -- -j4 -l4
+[1.627s] Invoking command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble /usr/bin/cmake --install /home/ali/Differentional-robot/Differentional_robot_ws/build/serial
+[1.707s] -- Install configuration: ""
+[1.707s] -- Execute custom install script
+[1.708s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/lib/libserial.a
+[1.708s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/include/serial/serial.h
+[1.715s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/include/serial/v8stdint.h
+[1.716s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/environment/library_path.sh
+[1.728s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/environment/library_path.dsv
+[1.733s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[1.734s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[1.734s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[1.734s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[1.735s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/environment/path.sh
+[1.736s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/environment/path.dsv
+[1.736s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/local_setup.bash
+[1.736s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/local_setup.sh
+[1.737s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/local_setup.zsh
+[1.737s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/local_setup.dsv
+[1.740s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/package.dsv
+[1.786s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/ament_index/resource_index/packages/serial
+[1.791s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.801s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[1.801s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[1.808s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[1.808s] -- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/package.xml
+[1.916s] Invoked command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble /usr/bin/cmake --install /home/ali/Differentional-robot/Differentional_robot_ws/build/serial

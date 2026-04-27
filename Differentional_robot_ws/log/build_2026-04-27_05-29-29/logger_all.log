@@ -1,0 +1,343 @@
+[0.909s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.909s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x79c040565360>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79c040564f10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79c040564f10>>)
+[1.917s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.917s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.918s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.918s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.918s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.918s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.918s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ali/Differentional-robot/Differentional_robot_ws'
+[1.919s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore'
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore_ament_install'
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_pkg']
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_pkg'
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_meta']
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_meta'
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ros']
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ros'
+[1.990s] DEBUG:colcon.colcon_core.package_identification:Package 'src/articubot_one' with type 'ros.ament_cmake' and name 'articubot_one'
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore'
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore_ament_install'
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_pkg']
+[1.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_pkg'
+[1.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_meta']
+[1.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_meta'
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ros']
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ros'
+[1.998s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[2.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[2.004s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[2.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[2.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[2.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[2.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[2.010s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[2.011s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.011s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.011s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.011s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.011s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.517s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/ali/Differentional-robot/Differentional_robot_ws/install
+[2.519s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/ali/perceptron_ws/install
+[2.814s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /mnt/c/Users/HP/perceptron_ws/install
+[2.938s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 375 installed packages in /opt/ros/humble
+[2.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.824s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_args' from command line to 'None'
+[3.824s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target' from command line to 'None'
+[3.825s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.825s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_cache' from command line to 'False'
+[3.825s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_first' from command line to 'False'
+[3.825s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_force_configure' from command line to 'False'
+[3.825s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'ament_cmake_args' from command line to 'None'
+[3.825s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_cmake_args' from command line to 'None'
+[3.825s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.825s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ali/Differentional-robot/Differentional_robot_ws/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one', 'merge_install': False, 'path': '/home/ali/Differentional-robot/Differentional_robot_ws/src/articubot_one', 'symlink_install': True, 'test_result_base': None}
+[3.827s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[3.827s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[3.827s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.829s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[3.830s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[3.831s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[3.831s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[3.831s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[3.831s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.832s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino', 'symlink_install': True, 'test_result_base': None}
+[3.833s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[3.834s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[3.834s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.835s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[3.835s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[3.836s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[3.836s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[3.837s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[3.837s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.837s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ali/Differentional-robot/Differentional_robot_ws/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros', 'merge_install': False, 'path': '/home/ali/Differentional-robot/Differentional_robot_ws/src/rplidar_ros', 'symlink_install': True, 'test_result_base': None}
+[3.838s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[3.839s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[3.839s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.839s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[3.839s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[3.839s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[3.839s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[3.840s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[3.840s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.840s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ali/Differentional-robot/Differentional_robot_ws/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial', 'merge_install': False, 'path': '/home/ali/Differentional-robot/Differentional_robot_ws/src/serial', 'symlink_install': True, 'test_result_base': None}
+[3.840s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.844s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.845s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ali/Differentional-robot/Differentional_robot_ws/src/articubot_one' with build type 'ament_cmake'
+[3.846s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ali/Differentional-robot/Differentional_robot_ws/src/articubot_one'
+[3.892s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.893s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.893s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.526s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino' with build type 'ament_cmake'
+[4.527s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino'
+[4.528s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.529s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.183s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ali/Differentional-robot/Differentional_robot_ws/src/rplidar_ros' with build type 'ament_cmake'
+[5.184s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ali/Differentional-robot/Differentional_robot_ws/src/rplidar_ros'
+[5.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.186s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.821s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ali/Differentional-robot/Differentional_robot_ws/src/serial' with build type 'ament_cmake'
+[5.821s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ali/Differentional-robot/Differentional_robot_ws/src/serial'
+[5.823s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.823s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/articubot_one': CMAKE_PREFIX_PATH=/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ali/Differentional-robot/Differentional_robot_ws/build/articubot_one -- -j4 -l4
+[6.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino -- -j4 -l4
+[6.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ali/Differentional-robot/Differentional_robot_ws/build/rplidar_ros -- -j4 -l4
+[6.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/serial': CMAKE_PREFIX_PATH=/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ali/Differentional-robot/Differentional_robot_ws/build/serial -- -j4 -l4
+[6.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ali/Differentional-robot/Differentional_robot_ws/build/articubot_one -- -j4 -l4
+[6.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/articubot_one': CMAKE_PREFIX_PATH=/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ali/Differentional-robot/Differentional_robot_ws/build/articubot_one
+[7.067s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[7.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ali/Differentional-robot/Differentional_robot_ws/build/articubot_one
+[7.138s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one' for CMake module files
+[7.139s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one' for CMake config files
+[7.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[7.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[7.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[7.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[7.167s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/bin'
+[7.167s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[7.168s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/lib/python3.10/site-packages'
+[7.169s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/bin'
+[7.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/package.ps1'
+[7.180s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/package.dsv'
+[7.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/package.sh'
+[7.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/package.bash'
+[7.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/package.zsh'
+[7.198s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
+[7.210s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[7.212s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one' for CMake module files
+[7.215s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one' for CMake config files
+[7.216s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[7.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[7.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[7.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[7.228s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/bin'
+[7.228s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[7.229s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/lib/python3.10/site-packages'
+[7.231s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/bin'
+[7.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/package.ps1'
+[7.240s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/package.dsv'
+[7.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/package.sh'
+[7.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/package.bash'
+[7.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/package.zsh'
+[7.250s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
+[7.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino -- -j4 -l4
+[7.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino
+[7.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ali/Differentional-robot/Differentional_robot_ws/build/rplidar_ros -- -j4 -l4
+[7.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ali/Differentional-robot/Differentional_robot_ws/build/rplidar_ros
+[7.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ali/Differentional-robot/Differentional_robot_ws/build/serial -- -j4 -l4
+[7.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/serial': CMAKE_PREFIX_PATH=/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ali/Differentional-robot/Differentional_robot_ws/build/serial
+[7.420s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[7.427s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino' for CMake module files
+[7.431s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino' for CMake config files
+[7.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino
+[7.439s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[7.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[7.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[7.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[7.465s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/lib'
+[7.468s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[7.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[7.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[7.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[7.479s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/bin'
+[7.480s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[7.481s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/lib/python3.10/site-packages'
+[7.483s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/bin'
+[7.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[7.489s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[7.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[7.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[7.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[7.499s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[7.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[7.503s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino' for CMake module files
+[7.505s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino' for CMake config files
+[7.506s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[7.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[7.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[7.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[7.517s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/lib'
+[7.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[7.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[7.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[7.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[7.530s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/bin'
+[7.530s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[7.531s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/lib/python3.10/site-packages'
+[7.532s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/bin'
+[7.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[7.536s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[7.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[7.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[7.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[7.547s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[7.562s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[7.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ali/Differentional-robot/Differentional_robot_ws/build/serial
+[7.565s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial' for CMake module files
+[7.570s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial' for CMake config files
+[7.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[7.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[7.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[7.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[7.583s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/lib'
+[7.583s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/bin'
+[7.584s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/lib/pkgconfig/serial.pc'
+[7.585s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/lib/python3.10/site-packages'
+[7.587s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/bin'
+[7.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/package.ps1'
+[7.594s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/package.dsv'
+[7.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/package.sh'
+[7.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/package.bash'
+[7.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/package.zsh'
+[7.601s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/colcon-core/packages/serial)
+[7.603s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[7.604s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial' for CMake module files
+[7.606s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial' for CMake config files
+[7.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[7.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[7.609s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[7.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[7.619s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/lib'
+[7.620s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/bin'
+[7.621s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/lib/pkgconfig/serial.pc'
+[7.621s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/lib/python3.10/site-packages'
+[7.623s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/bin'
+[7.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/package.ps1'
+[7.627s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/package.dsv'
+[7.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/package.sh'
+[7.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/package.bash'
+[7.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/package.zsh'
+[7.643s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/colcon-core/packages/serial)
+[7.644s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[7.646s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros' for CMake module files
+[7.655s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros' for CMake config files
+[7.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ali/Differentional-robot/Differentional_robot_ws/build/rplidar_ros
+[7.659s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[7.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[7.662s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[7.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[7.671s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/lib'
+[7.671s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/bin'
+[7.672s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[7.679s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/lib/python3.10/site-packages'
+[7.681s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/bin'
+[7.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[7.688s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[7.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[7.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[7.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[7.697s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[7.699s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[7.701s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros' for CMake module files
+[7.703s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros' for CMake config files
+[7.704s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[7.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[7.713s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[7.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[7.718s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/lib'
+[7.719s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/bin'
+[7.719s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[7.720s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/lib/python3.10/site-packages'
+[7.724s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/bin'
+[7.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[7.734s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[7.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[7.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[7.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[7.748s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[7.751s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.752s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.752s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.752s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.871s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[7.871s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.872s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.872s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.873s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[7.873s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.875s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ali/Differentional-robot/Differentional_robot_ws/install/local_setup.ps1'
+[7.878s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ali/Differentional-robot/Differentional_robot_ws/install/_local_setup_util_ps1.py'
+[7.882s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ali/Differentional-robot/Differentional_robot_ws/install/setup.ps1'
+[8.113s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ali/Differentional-robot/Differentional_robot_ws/install/local_setup.sh'
+[8.115s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ali/Differentional-robot/Differentional_robot_ws/install/_local_setup_util_sh.py'
+[8.118s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ali/Differentional-robot/Differentional_robot_ws/install/setup.sh'
+[8.295s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ali/Differentional-robot/Differentional_robot_ws/install/local_setup.bash'
+[8.297s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ali/Differentional-robot/Differentional_robot_ws/install/setup.bash'
+[8.460s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ali/Differentional-robot/Differentional_robot_ws/install/local_setup.zsh'
+[8.463s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ali/Differentional-robot/Differentional_robot_ws/install/setup.zsh'

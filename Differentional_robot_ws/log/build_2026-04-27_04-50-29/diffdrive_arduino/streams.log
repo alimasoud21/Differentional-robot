@@ -1,0 +1,36 @@
+[0.747s] Invoking command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble /usr/bin/cmake /home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino
+[2.345s] -- The C compiler identification is GNU 11.4.0
+[3.296s] -- The CXX compiler identification is GNU 11.4.0
+[3.844s] -- Detecting C compiler ABI info
+[4.207s] -- Detecting C compiler ABI info - done
+[4.228s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.229s] -- Detecting C compile features
+[4.232s] -- Detecting C compile features - done
+[4.241s] -- Detecting CXX compiler ABI info
+[4.606s] -- Detecting CXX compiler ABI info - done
+[4.630s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.631s] -- Detecting CXX compile features
+[4.633s] -- Detecting CXX compile features - done
+[6.100s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[13.551s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[15.096s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[38.167s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[38.168s]   By not providing "Findserial.cmake" in CMAKE_MODULE_PATH this project has
+[38.168s]   asked CMake to find a package configuration file provided by "serial", but
+[38.168s]   CMake did not find one.
+[38.169s] 
+[38.169s]   Could not find a package configuration file provided by "serial" with any
+[38.170s]   of the following names:
+[38.171s] 
+[38.171s]     serialConfig.cmake
+[38.172s]     serial-config.cmake
+[38.172s] 
+[38.173s]   Add the installation prefix of "serial" to CMAKE_PREFIX_PATH or set
+[38.174s]   "serial_DIR" to a directory containing one of the above files.  If "serial"
+[38.175s]   provides a separate development package or SDK, be sure it has been
+[38.175s]   installed.
+[38.175s] 
+[38.175s] [0m
+[38.176s] -- Configuring incomplete, errors occurred!
+[38.176s] See also "/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino/CMakeFiles/CMakeOutput.log".
+[38.186s] Invoked command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble /usr/bin/cmake /home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino

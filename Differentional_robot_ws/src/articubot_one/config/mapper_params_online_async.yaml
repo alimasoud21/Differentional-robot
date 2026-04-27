@@ -25,7 +25,7 @@ slam_toolbox:
 
     # Point this to wherever you moved the map folder in your new workspace!
     # Make sure to leave off the .yaml extension.
-    map_file_name: /home/ali/YOUR_NEW_WS_NAME_HERE/src/articubot_one/map/warehouse_v2
+    #map_file_name: /home/ali/YOUR_NEW_WS_NAME_HERE/src/articubot_one/map/warehouse_v2
     map_start_at_dock: true
 
     # Performance & Tuning (Merged with your custom RPLidar limits)

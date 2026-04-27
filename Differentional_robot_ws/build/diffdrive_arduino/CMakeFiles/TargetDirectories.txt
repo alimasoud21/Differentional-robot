@@ -1,0 +1,10 @@
+/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino/CMakeFiles/uninstall.dir
+/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino/CMakeFiles/diffdrive_arduino_uninstall.dir
+/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino/CMakeFiles/diffdrive_arduino.dir
+/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino/CMakeFiles/test.dir
+/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino/CMakeFiles/edit_cache.dir
+/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino/CMakeFiles/rebuild_cache.dir
+/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino/CMakeFiles/list_install_components.dir
+/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino/CMakeFiles/install.dir
+/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino/CMakeFiles/install/local.dir
+/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino/CMakeFiles/install/strip.dir

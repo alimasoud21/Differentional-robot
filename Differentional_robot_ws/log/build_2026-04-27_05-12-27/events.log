@@ -1,0 +1,1360 @@
+[0.000000] (-) TimerEvent: {}
+[0.002067] (articubot_one) JobQueued: {'identifier': 'articubot_one', 'dependencies': OrderedDict()}
+[0.004178] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.006663] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.007192] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict([('serial', '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial')])}
+[0.007287] (serial) JobStarted: {'identifier': 'serial'}
+[0.096852] (-) TimerEvent: {}
+[0.198241] (-) TimerEvent: {}
+[0.299394] (-) TimerEvent: {}
+[0.400447] (-) TimerEvent: {}
+[0.501490] (-) TimerEvent: {}
+[0.602898] (-) TimerEvent: {}
+[0.704324] (-) TimerEvent: {}
+[0.805369] (-) TimerEvent: {}
+[0.906746] (-) TimerEvent: {}
+[1.007968] (-) TimerEvent: {}
+[1.022621] (articubot_one) JobStarted: {'identifier': 'articubot_one'}
+[1.108328] (-) TimerEvent: {}
+[1.209546] (-) TimerEvent: {}
+[1.310504] (-) TimerEvent: {}
+[1.412422] (-) TimerEvent: {}
+[1.513358] (-) TimerEvent: {}
+[1.615995] (-) TimerEvent: {}
+[1.685588] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[1.716602] (-) TimerEvent: {}
+[1.819414] (-) TimerEvent: {}
+[1.922325] (-) TimerEvent: {}
+[2.024534] (-) TimerEvent: {}
+[2.126359] (-) TimerEvent: {}
+[2.228568] (-) TimerEvent: {}
+[2.330416] (-) TimerEvent: {}
+[2.432005] (-) TimerEvent: {}
+[2.468948] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[2.473442] (serial) Command: {'cmd': ['/usr/bin/cmake', '/home/ali/Differentional-robot/Differentional_robot_ws/src/serial', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ali/Differentional-robot/Differentional_robot_ws/install/serial'], 'cwd': '/home/ali/Differentional-robot/Differentional_robot_ws/build/serial', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ali'), ('GIT_ASKPASS', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ali'), ('OLDPWD', '/home/ali/Differentional-robot/Differentional_robot_ws/src'), ('TERM_PROGRAM_VERSION', '1.117.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5f6cc77a-cd56-4b04-836b-d6b906e0195f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install:/home/ali/perceptron_ws/install:/mnt/c/Users/HP/perceptron_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ali'), ('NAME', 'hp'), ('WSL_INTEROP', '/run/WSL/17641_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/bin/remote-cli:/home/ali/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-89b18544f1e46270.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/ali/.vscode-server/data/User/workspaceStorage/7522c7d0837fdf182a01af5027fd8942/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af6d472efb.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros:/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one:/home/ali/perceptron_ws/install/rplidar_ros:/home/ali/perceptron_ws/install/perceptron_driver:/home/ali/perceptron_ws/install/my_robot_slam:/home/ali/perceptron_ws/install/amr:/mnt/c/Users/HP/perceptron_ws/install/rplidar_ros:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/my_robot_slam:/mnt/c/Users/HP/perceptron_ws/install/amr:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ali/Differentional-robot/Differentional_robot_ws/build/serial'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ali/perceptron_ws/build/perceptron_driver:/home/ali/perceptron_ws/install/perceptron_driver/lib/python3.10/site-packages:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros:/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one:/home/ali/perceptron_ws/install/rplidar_ros:/home/ali/perceptron_ws/install/my_robot_slam:/home/ali/perceptron_ws/install/amr:/mnt/c/Users/HP/perceptron_ws/install/rplidar_ros:/mnt/c/Users/HP/perceptron_ws/install/my_robot_slam:/mnt/c/Users/HP/perceptron_ws/install/amr:/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[2.532664] (-) TimerEvent: {}
+[2.562895] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'cmake'}
+[2.571629] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'build'}
+[2.571823] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ali/Differentional-robot/Differentional_robot_ws/build/articubot_one', '--', '-j4', '-l4'], 'cwd': '/home/ali/Differentional-robot/Differentional_robot_ws/build/articubot_one', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ali'), ('GIT_ASKPASS', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ali'), ('OLDPWD', '/home/ali/Differentional-robot/Differentional_robot_ws/src'), ('TERM_PROGRAM_VERSION', '1.117.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5f6cc77a-cd56-4b04-836b-d6b906e0195f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install:/home/ali/perceptron_ws/install:/mnt/c/Users/HP/perceptron_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ali'), ('NAME', 'hp'), ('WSL_INTEROP', '/run/WSL/17641_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/bin/remote-cli:/home/ali/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-89b18544f1e46270.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/ali/.vscode-server/data/User/workspaceStorage/7522c7d0837fdf182a01af5027fd8942/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af6d472efb.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros:/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one:/home/ali/perceptron_ws/install/rplidar_ros:/home/ali/perceptron_ws/install/perceptron_driver:/home/ali/perceptron_ws/install/my_robot_slam:/home/ali/perceptron_ws/install/amr:/mnt/c/Users/HP/perceptron_ws/install/rplidar_ros:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/my_robot_slam:/mnt/c/Users/HP/perceptron_ws/install/amr:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ali/Differentional-robot/Differentional_robot_ws/build/articubot_one'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ali/perceptron_ws/build/perceptron_driver:/home/ali/perceptron_ws/install/perceptron_driver/lib/python3.10/site-packages:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros:/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one:/home/ali/perceptron_ws/install/rplidar_ros:/home/ali/perceptron_ws/install/my_robot_slam:/home/ali/perceptron_ws/install/amr:/mnt/c/Users/HP/perceptron_ws/install/rplidar_ros:/mnt/c/Users/HP/perceptron_ws/install/my_robot_slam:/mnt/c/Users/HP/perceptron_ws/install/amr:/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[2.598399] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[2.602693] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[2.607389] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ali/Differentional-robot/Differentional_robot_ws/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/ali/Differentional-robot/Differentional_robot_ws/build/rplidar_ros', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ali'), ('GIT_ASKPASS', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ali'), ('OLDPWD', '/home/ali/Differentional-robot/Differentional_robot_ws/src'), ('TERM_PROGRAM_VERSION', '1.117.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5f6cc77a-cd56-4b04-836b-d6b906e0195f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install:/home/ali/perceptron_ws/install:/mnt/c/Users/HP/perceptron_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ali'), ('NAME', 'hp'), ('WSL_INTEROP', '/run/WSL/17641_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/bin/remote-cli:/home/ali/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-89b18544f1e46270.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/ali/.vscode-server/data/User/workspaceStorage/7522c7d0837fdf182a01af5027fd8942/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af6d472efb.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros:/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one:/home/ali/perceptron_ws/install/rplidar_ros:/home/ali/perceptron_ws/install/perceptron_driver:/home/ali/perceptron_ws/install/my_robot_slam:/home/ali/perceptron_ws/install/amr:/mnt/c/Users/HP/perceptron_ws/install/rplidar_ros:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/my_robot_slam:/mnt/c/Users/HP/perceptron_ws/install/amr:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ali/Differentional-robot/Differentional_robot_ws/build/rplidar_ros'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ali/perceptron_ws/build/perceptron_driver:/home/ali/perceptron_ws/install/perceptron_driver/lib/python3.10/site-packages:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros:/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one:/home/ali/perceptron_ws/install/rplidar_ros:/home/ali/perceptron_ws/install/my_robot_slam:/home/ali/perceptron_ws/install/amr:/mnt/c/Users/HP/perceptron_ws/install/rplidar_ros:/mnt/c/Users/HP/perceptron_ws/install/my_robot_slam:/mnt/c/Users/HP/perceptron_ws/install/amr:/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[2.633090] (-) TimerEvent: {}
+[2.738277] (-) TimerEvent: {}
+[2.753926] (articubot_one) CommandEnded: {'returncode': 0}
+[2.756706] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'install'}
+[2.800319] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ali/Differentional-robot/Differentional_robot_ws/build/articubot_one'], 'cwd': '/home/ali/Differentional-robot/Differentional_robot_ws/build/articubot_one', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ali'), ('GIT_ASKPASS', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ali'), ('OLDPWD', '/home/ali/Differentional-robot/Differentional_robot_ws/src'), ('TERM_PROGRAM_VERSION', '1.117.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5f6cc77a-cd56-4b04-836b-d6b906e0195f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install:/home/ali/perceptron_ws/install:/mnt/c/Users/HP/perceptron_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ali'), ('NAME', 'hp'), ('WSL_INTEROP', '/run/WSL/17641_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/bin/remote-cli:/home/ali/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-89b18544f1e46270.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/ali/.vscode-server/data/User/workspaceStorage/7522c7d0837fdf182a01af5027fd8942/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af6d472efb.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros:/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one:/home/ali/perceptron_ws/install/rplidar_ros:/home/ali/perceptron_ws/install/perceptron_driver:/home/ali/perceptron_ws/install/my_robot_slam:/home/ali/perceptron_ws/install/amr:/mnt/c/Users/HP/perceptron_ws/install/rplidar_ros:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/my_robot_slam:/mnt/c/Users/HP/perceptron_ws/install/amr:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ali/Differentional-robot/Differentional_robot_ws/build/articubot_one'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ali/perceptron_ws/build/perceptron_driver:/home/ali/perceptron_ws/install/perceptron_driver/lib/python3.10/site-packages:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros:/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one:/home/ali/perceptron_ws/install/rplidar_ros:/home/ali/perceptron_ws/install/my_robot_slam:/home/ali/perceptron_ws/install/amr:/mnt/c/Users/HP/perceptron_ws/install/rplidar_ros:/mnt/c/Users/HP/perceptron_ws/install/my_robot_slam:/mnt/c/Users/HP/perceptron_ws/install/amr:/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[2.842140] (-) TimerEvent: {}
+[2.854465] (articubot_one) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.865005] (articubot_one) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.870430] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/config/drive_bot.rviz\n'}
+[2.875161] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/config/empty.yaml\n'}
+[2.875787] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/config/joystick.yaml\n'}
+[2.877953] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/config/main.rviz\n'}
+[2.883915] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/config/map.rviz\n'}
+[2.884901] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml\n'}
+[2.889128] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/config/my_controllers.yaml\n'}
+[2.901610] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/config/nav2_params.yaml\n'}
+[2.902248] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/config/twist_mux.yaml\n'}
+[2.902576] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz\n'}
+[2.902786] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro\n'}
+[2.902975] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/description/lidar.xacro\n'}
+[2.903156] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/description/meshes/base_link.STL\n'}
+[2.903331] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/description/meshes/caster_Link.STL\n'}
+[2.903547] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/description/meshes/imu_Link.STL\n'}
+[2.908192] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/description/meshes/lidar_Link.STL\n'}
+[2.917073] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/description/meshes/wheel_left_Link.STL\n'}
+[2.926430] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/description/meshes/wheel_right_Link.STL\n'}
+[2.927548] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro\n'}
+[2.928071] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro\n'}
+[2.928397] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/description/ros2_control.xacro\n'}
+[2.928661] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/launch/joystick.launch.py\n'}
+[2.928828] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py\n'}
+[2.928982] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/launch/localization_launch.py\n'}
+[2.934548] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/launch/navigation_launch.py\n'}
+[2.936135] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/launch/online_async_launch.py\n'}
+[2.939644] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/launch/rplidar.launch.py\n'}
+[2.943796] (-) TimerEvent: {}
+[2.945189] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py\n'}
+[2.945679] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/meshes/base_link.STL\n'}
+[2.945972] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/meshes/caster_Link.STL\n'}
+[2.946497] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/meshes/imu_Link.STL\n'}
+[2.946828] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/meshes/lidar_Link.STL\n'}
+[2.948060] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/meshes/wheel_left_Link.STL\n'}
+[2.949251] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/meshes/wheel_right_Link.STL\n'}
+[2.955549] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one\n'}
+[2.960178] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one\n'}
+[2.961762] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh\n'}
+[2.963935] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv\n'}
+[2.969317] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/environment/path.sh\n'}
+[2.970924] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/environment/path.dsv\n'}
+[2.982493] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/local_setup.bash\n'}
+[2.983125] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/local_setup.sh\n'}
+[2.983599] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/local_setup.zsh\n'}
+[2.983821] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/local_setup.dsv\n'}
+[2.984721] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/package.dsv\n'}
+[2.985849] (rplidar_ros) StdoutLine: {'line': b'[ 47%] Built target rplidar_node\n'}
+[3.001570] (rplidar_ros) StdoutLine: {'line': b'[ 52%] Built target rplidar_client\n'}
+[3.033343] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one\n'}
+[3.035336] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake\n'}
+[3.036588] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake\n'}
+[3.037397] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one/share/articubot_one/package.xml\n'}
+[3.039757] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[3.047491] (articubot_one) CommandEnded: {'returncode': 0}
+[3.051201] (-) TimerEvent: {}
+[3.153990] (-) TimerEvent: {}
+[3.202512] (articubot_one) JobEnded: {'identifier': 'articubot_one', 'rc': 0}
+[3.219023] (rplidar_ros) CommandEnded: {'returncode': 0}
+[3.222404] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[3.223113] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ali/Differentional-robot/Differentional_robot_ws/build/rplidar_ros'], 'cwd': '/home/ali/Differentional-robot/Differentional_robot_ws/build/rplidar_ros', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ali'), ('GIT_ASKPASS', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ali'), ('OLDPWD', '/home/ali/Differentional-robot/Differentional_robot_ws/src'), ('TERM_PROGRAM_VERSION', '1.117.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5f6cc77a-cd56-4b04-836b-d6b906e0195f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install:/home/ali/perceptron_ws/install:/mnt/c/Users/HP/perceptron_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ali'), ('NAME', 'hp'), ('WSL_INTEROP', '/run/WSL/17641_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/bin/remote-cli:/home/ali/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-89b18544f1e46270.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/ali/.vscode-server/data/User/workspaceStorage/7522c7d0837fdf182a01af5027fd8942/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af6d472efb.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros:/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one:/home/ali/perceptron_ws/install/rplidar_ros:/home/ali/perceptron_ws/install/perceptron_driver:/home/ali/perceptron_ws/install/my_robot_slam:/home/ali/perceptron_ws/install/amr:/mnt/c/Users/HP/perceptron_ws/install/rplidar_ros:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/my_robot_slam:/mnt/c/Users/HP/perceptron_ws/install/amr:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ali/Differentional-robot/Differentional_robot_ws/build/rplidar_ros'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ali/perceptron_ws/build/perceptron_driver:/home/ali/perceptron_ws/install/perceptron_driver/lib/python3.10/site-packages:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros:/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one:/home/ali/perceptron_ws/install/rplidar_ros:/home/ali/perceptron_ws/install/my_robot_slam:/home/ali/perceptron_ws/install/amr:/mnt/c/Users/HP/perceptron_ws/install/rplidar_ros:/mnt/c/Users/HP/perceptron_ws/install/my_robot_slam:/mnt/c/Users/HP/perceptron_ws/install/amr:/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[3.255206] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.256613] (-) TimerEvent: {}
+[3.268723] (rplidar_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.272294] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py\n'}
+[3.272605] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz\n'}
+[3.274378] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node\n'}
+[3.275095] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[3.276103] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client\n'}
+[3.280345] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[3.285859] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[3.290167] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[3.290980] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[3.291870] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[3.293062] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[3.293891] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[3.294878] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[3.306941] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[3.307685] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[3.308039] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[3.355701] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[3.356874] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.357343] (-) TimerEvent: {}
+[3.358025] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.358664] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[3.359034] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[3.359342] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[3.379710] (rplidar_ros) CommandEnded: {'returncode': 0}
+[3.459186] (-) TimerEvent: {}
+[3.500441] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[3.560017] (-) TimerEvent: {}
+[3.661039] (-) TimerEvent: {}
+[3.762481] (-) TimerEvent: {}
+[3.863922] (-) TimerEvent: {}
+[3.965803] (-) TimerEvent: {}
+[4.067341] (-) TimerEvent: {}
+[4.168646] (-) TimerEvent: {}
+[4.271564] (-) TimerEvent: {}
+[4.328489] (serial) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.373164] (-) TimerEvent: {}
+[4.474879] (-) TimerEvent: {}
+[4.578047] (-) TimerEvent: {}
+[4.679627] (-) TimerEvent: {}
+[4.780819] (-) TimerEvent: {}
+[4.882584] (-) TimerEvent: {}
+[4.984071] (-) TimerEvent: {}
+[5.085304] (-) TimerEvent: {}
+[5.186779] (-) TimerEvent: {}
+[5.288031] (-) TimerEvent: {}
+[5.391161] (-) TimerEvent: {}
+[5.492743] (-) TimerEvent: {}
+[5.596040] (-) TimerEvent: {}
+[5.697675] (-) TimerEvent: {}
+[5.798961] (-) TimerEvent: {}
+[5.900410] (-) TimerEvent: {}
+[6.001558] (-) TimerEvent: {}
+[6.103715] (-) TimerEvent: {}
+[6.205263] (-) TimerEvent: {}
+[6.308854] (-) TimerEvent: {}
+[6.412322] (-) TimerEvent: {}
+[6.514424] (-) TimerEvent: {}
+[6.615784] (-) TimerEvent: {}
+[6.718118] (-) TimerEvent: {}
+[6.821828] (-) TimerEvent: {}
+[6.922993] (-) TimerEvent: {}
+[7.024255] (-) TimerEvent: {}
+[7.125603] (-) TimerEvent: {}
+[7.226748] (-) TimerEvent: {}
+[7.328339] (-) TimerEvent: {}
+[7.430276] (-) TimerEvent: {}
+[7.531453] (-) TimerEvent: {}
+[7.632665] (-) TimerEvent: {}
+[7.734514] (-) TimerEvent: {}
+[7.835636] (-) TimerEvent: {}
+[7.938470] (-) TimerEvent: {}
+[8.039535] (-) TimerEvent: {}
+[8.142945] (-) TimerEvent: {}
+[8.244161] (-) TimerEvent: {}
+[8.347529] (-) TimerEvent: {}
+[8.450310] (-) TimerEvent: {}
+[8.554090] (-) TimerEvent: {}
+[8.655275] (-) TimerEvent: {}
+[8.756771] (-) TimerEvent: {}
+[8.858560] (-) TimerEvent: {}
+[8.962750] (-) TimerEvent: {}
+[9.063959] (-) TimerEvent: {}
+[9.165315] (-) TimerEvent: {}
+[9.266523] (-) TimerEvent: {}
+[9.370007] (-) TimerEvent: {}
+[9.473019] (-) TimerEvent: {}
+[9.574758] (-) TimerEvent: {}
+[9.675845] (-) TimerEvent: {}
+[9.776967] (-) TimerEvent: {}
+[9.878845] (-) TimerEvent: {}
+[9.980050] (-) TimerEvent: {}
+[10.081102] (-) TimerEvent: {}
+[10.182307] (-) TimerEvent: {}
+[10.283408] (-) TimerEvent: {}
+[10.384983] (-) TimerEvent: {}
+[10.486255] (-) TimerEvent: {}
+[10.587656] (-) TimerEvent: {}
+[10.689252] (-) TimerEvent: {}
+[10.790550] (-) TimerEvent: {}
+[10.891664] (-) TimerEvent: {}
+[10.993045] (-) TimerEvent: {}
+[11.094473] (-) TimerEvent: {}
+[11.197550] (-) TimerEvent: {}
+[11.299477] (-) TimerEvent: {}
+[11.402603] (-) TimerEvent: {}
+[11.503693] (-) TimerEvent: {}
+[11.606004] (-) TimerEvent: {}
+[11.707341] (-) TimerEvent: {}
+[11.808493] (-) TimerEvent: {}
+[11.909871] (-) TimerEvent: {}
+[12.010736] (-) TimerEvent: {}
+[12.111992] (-) TimerEvent: {}
+[12.213178] (-) TimerEvent: {}
+[12.314545] (-) TimerEvent: {}
+[12.415797] (-) TimerEvent: {}
+[12.516834] (-) TimerEvent: {}
+[12.618487] (-) TimerEvent: {}
+[12.719849] (-) TimerEvent: {}
+[12.821048] (-) TimerEvent: {}
+[12.880421] (serial) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[12.921665] (-) TimerEvent: {}
+[13.023147] (-) TimerEvent: {}
+[13.124604] (-) TimerEvent: {}
+[13.225912] (-) TimerEvent: {}
+[13.327254] (-) TimerEvent: {}
+[13.428451] (-) TimerEvent: {}
+[13.531522] (-) TimerEvent: {}
+[13.634462] (-) TimerEvent: {}
+[13.737189] (-) TimerEvent: {}
+[13.840765] (-) TimerEvent: {}
+[13.942087] (-) TimerEvent: {}
+[14.042839] (-) TimerEvent: {}
+[14.143787] (-) TimerEvent: {}
+[14.244722] (-) TimerEvent: {}
+[14.346468] (-) TimerEvent: {}
+[14.449062] (-) TimerEvent: {}
+[14.551235] (-) TimerEvent: {}
+[14.598847] (serial) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[14.651870] (-) TimerEvent: {}
+[14.753009] (-) TimerEvent: {}
+[14.854284] (-) TimerEvent: {}
+[14.955479] (-) TimerEvent: {}
+[15.057034] (-) TimerEvent: {}
+[15.158292] (-) TimerEvent: {}
+[15.259603] (-) TimerEvent: {}
+[15.360972] (-) TimerEvent: {}
+[15.462371] (-) TimerEvent: {}
+[15.563446] (-) TimerEvent: {}
+[15.664943] (-) TimerEvent: {}
+[15.766209] (-) TimerEvent: {}
+[15.867116] (-) TimerEvent: {}
+[15.968167] (-) TimerEvent: {}
+[16.069415] (-) TimerEvent: {}
+[16.170420] (-) TimerEvent: {}
+[16.271546] (-) TimerEvent: {}
+[16.372788] (-) TimerEvent: {}
+[16.474027] (-) TimerEvent: {}
+[16.575202] (-) TimerEvent: {}
+[16.676721] (-) TimerEvent: {}
+[16.778054] (-) TimerEvent: {}
+[16.880604] (-) TimerEvent: {}
+[16.982486] (-) TimerEvent: {}
+[17.083564] (-) TimerEvent: {}
+[17.184802] (-) TimerEvent: {}
+[17.287612] (-) TimerEvent: {}
+[17.390662] (-) TimerEvent: {}
+[17.494031] (-) TimerEvent: {}
+[17.595620] (-) TimerEvent: {}
+[17.696566] (-) TimerEvent: {}
+[17.797310] (-) TimerEvent: {}
+[17.898400] (-) TimerEvent: {}
+[17.999287] (-) TimerEvent: {}
+[18.100095] (-) TimerEvent: {}
+[18.200847] (-) TimerEvent: {}
+[18.301608] (-) TimerEvent: {}
+[18.402605] (-) TimerEvent: {}
+[18.503573] (-) TimerEvent: {}
+[18.604352] (-) TimerEvent: {}
+[18.705184] (-) TimerEvent: {}
+[18.806325] (-) TimerEvent: {}
+[18.907664] (-) TimerEvent: {}
+[19.008479] (-) TimerEvent: {}
+[19.109204] (-) TimerEvent: {}
+[19.210175] (-) TimerEvent: {}
+[19.311025] (-) TimerEvent: {}
+[19.411800] (-) TimerEvent: {}
+[19.512471] (-) TimerEvent: {}
+[19.613625] (-) TimerEvent: {}
+[19.714593] (-) TimerEvent: {}
+[19.815850] (-) TimerEvent: {}
+[19.916956] (-) TimerEvent: {}
+[20.017873] (-) TimerEvent: {}
+[20.118529] (-) TimerEvent: {}
+[20.219350] (-) TimerEvent: {}
+[20.320171] (-) TimerEvent: {}
+[20.420816] (-) TimerEvent: {}
+[20.521817] (-) TimerEvent: {}
+[20.622616] (-) TimerEvent: {}
+[20.723743] (-) TimerEvent: {}
+[20.824790] (-) TimerEvent: {}
+[20.926063] (-) TimerEvent: {}
+[21.027029] (-) TimerEvent: {}
+[21.127970] (-) TimerEvent: {}
+[21.228943] (-) TimerEvent: {}
+[21.329948] (-) TimerEvent: {}
+[21.431152] (-) TimerEvent: {}
+[21.532208] (-) TimerEvent: {}
+[21.633047] (-) TimerEvent: {}
+[21.734029] (-) TimerEvent: {}
+[21.835171] (-) TimerEvent: {}
+[21.936177] (-) TimerEvent: {}
+[22.037269] (-) TimerEvent: {}
+[22.138429] (-) TimerEvent: {}
+[22.240001] (-) TimerEvent: {}
+[22.341207] (-) TimerEvent: {}
+[22.442549] (-) TimerEvent: {}
+[22.543807] (-) TimerEvent: {}
+[22.645127] (-) TimerEvent: {}
+[22.746000] (-) TimerEvent: {}
+[22.847212] (-) TimerEvent: {}
+[22.948482] (-) TimerEvent: {}
+[23.049360] (-) TimerEvent: {}
+[23.150420] (-) TimerEvent: {}
+[23.251724] (-) TimerEvent: {}
+[23.352846] (-) TimerEvent: {}
+[23.453687] (-) TimerEvent: {}
+[23.555246] (-) TimerEvent: {}
+[23.656492] (-) TimerEvent: {}
+[23.757461] (-) TimerEvent: {}
+[23.858800] (-) TimerEvent: {}
+[23.959846] (-) TimerEvent: {}
+[24.060696] (-) TimerEvent: {}
+[24.162140] (-) TimerEvent: {}
+[24.262897] (-) TimerEvent: {}
+[24.363835] (-) TimerEvent: {}
+[24.464676] (-) TimerEvent: {}
+[24.565533] (-) TimerEvent: {}
+[24.666508] (-) TimerEvent: {}
+[24.767803] (-) TimerEvent: {}
+[24.868703] (-) TimerEvent: {}
+[24.969831] (-) TimerEvent: {}
+[25.070999] (-) TimerEvent: {}
+[25.172161] (-) TimerEvent: {}
+[25.273085] (-) TimerEvent: {}
+[25.373851] (-) TimerEvent: {}
+[25.474808] (-) TimerEvent: {}
+[25.575971] (-) TimerEvent: {}
+[25.676918] (-) TimerEvent: {}
+[25.778026] (-) TimerEvent: {}
+[25.878959] (-) TimerEvent: {}
+[25.979816] (-) TimerEvent: {}
+[26.080899] (-) TimerEvent: {}
+[26.181814] (-) TimerEvent: {}
+[26.283126] (-) TimerEvent: {}
+[26.383994] (-) TimerEvent: {}
+[26.484811] (-) TimerEvent: {}
+[26.585557] (-) TimerEvent: {}
+[26.686453] (-) TimerEvent: {}
+[26.787372] (-) TimerEvent: {}
+[26.888469] (-) TimerEvent: {}
+[26.989412] (-) TimerEvent: {}
+[27.090195] (-) TimerEvent: {}
+[27.191061] (-) TimerEvent: {}
+[27.292254] (-) TimerEvent: {}
+[27.393249] (-) TimerEvent: {}
+[27.494263] (-) TimerEvent: {}
+[27.595622] (-) TimerEvent: {}
+[27.696643] (-) TimerEvent: {}
+[27.797776] (-) TimerEvent: {}
+[27.898735] (-) TimerEvent: {}
+[27.999856] (-) TimerEvent: {}
+[28.100719] (-) TimerEvent: {}
+[28.201565] (-) TimerEvent: {}
+[28.302976] (-) TimerEvent: {}
+[28.403813] (-) TimerEvent: {}
+[28.504682] (-) TimerEvent: {}
+[28.605835] (-) TimerEvent: {}
+[28.707039] (-) TimerEvent: {}
+[28.807914] (-) TimerEvent: {}
+[28.908953] (-) TimerEvent: {}
+[29.009988] (-) TimerEvent: {}
+[29.111166] (-) TimerEvent: {}
+[29.212154] (-) TimerEvent: {}
+[29.313431] (-) TimerEvent: {}
+[29.414494] (-) TimerEvent: {}
+[29.515629] (-) TimerEvent: {}
+[29.616488] (-) TimerEvent: {}
+[29.717376] (-) TimerEvent: {}
+[29.818531] (-) TimerEvent: {}
+[29.919697] (-) TimerEvent: {}
+[30.020535] (-) TimerEvent: {}
+[30.121673] (-) TimerEvent: {}
+[30.222857] (-) TimerEvent: {}
+[30.324103] (-) TimerEvent: {}
+[30.424902] (-) TimerEvent: {}
+[30.525968] (-) TimerEvent: {}
+[30.627198] (-) TimerEvent: {}
+[30.728299] (-) TimerEvent: {}
+[30.829134] (-) TimerEvent: {}
+[30.930062] (-) TimerEvent: {}
+[31.030944] (-) TimerEvent: {}
+[31.132206] (-) TimerEvent: {}
+[31.233373] (-) TimerEvent: {}
+[31.334385] (-) TimerEvent: {}
+[31.435343] (-) TimerEvent: {}
+[31.536287] (-) TimerEvent: {}
+[31.637385] (-) TimerEvent: {}
+[31.738394] (-) TimerEvent: {}
+[31.839536] (-) TimerEvent: {}
+[31.940645] (-) TimerEvent: {}
+[32.041536] (-) TimerEvent: {}
+[32.142899] (-) TimerEvent: {}
+[32.244096] (-) TimerEvent: {}
+[32.344992] (-) TimerEvent: {}
+[32.445920] (-) TimerEvent: {}
+[32.547267] (-) TimerEvent: {}
+[32.648421] (-) TimerEvent: {}
+[32.749500] (-) TimerEvent: {}
+[32.850601] (-) TimerEvent: {}
+[32.951648] (-) TimerEvent: {}
+[33.052800] (-) TimerEvent: {}
+[33.154040] (-) TimerEvent: {}
+[33.254955] (-) TimerEvent: {}
+[33.356266] (-) TimerEvent: {}
+[33.457562] (-) TimerEvent: {}
+[33.558723] (-) TimerEvent: {}
+[33.659618] (-) TimerEvent: {}
+[33.760719] (-) TimerEvent: {}
+[33.861668] (-) TimerEvent: {}
+[33.963158] (-) TimerEvent: {}
+[34.064084] (-) TimerEvent: {}
+[34.165286] (-) TimerEvent: {}
+[34.266564] (-) TimerEvent: {}
+[34.367431] (-) TimerEvent: {}
+[34.468607] (-) TimerEvent: {}
+[34.569418] (-) TimerEvent: {}
+[34.670797] (-) TimerEvent: {}
+[34.771797] (-) TimerEvent: {}
+[34.872601] (-) TimerEvent: {}
+[34.973633] (-) TimerEvent: {}
+[35.074763] (-) TimerEvent: {}
+[35.176028] (-) TimerEvent: {}
+[35.277135] (-) TimerEvent: {}
+[35.378251] (-) TimerEvent: {}
+[35.432598] (serial) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[35.478698] (-) TimerEvent: {}
+[35.579735] (-) TimerEvent: {}
+[35.680783] (-) TimerEvent: {}
+[35.781989] (-) TimerEvent: {}
+[35.882979] (-) TimerEvent: {}
+[35.983859] (-) TimerEvent: {}
+[36.084798] (-) TimerEvent: {}
+[36.185875] (-) TimerEvent: {}
+[36.287081] (-) TimerEvent: {}
+[36.388477] (-) TimerEvent: {}
+[36.489594] (-) TimerEvent: {}
+[36.590779] (-) TimerEvent: {}
+[36.692008] (-) TimerEvent: {}
+[36.793114] (-) TimerEvent: {}
+[36.894070] (-) TimerEvent: {}
+[36.995192] (-) TimerEvent: {}
+[37.096077] (-) TimerEvent: {}
+[37.196858] (-) TimerEvent: {}
+[37.297995] (-) TimerEvent: {}
+[37.399177] (-) TimerEvent: {}
+[37.500173] (-) TimerEvent: {}
+[37.601414] (-) TimerEvent: {}
+[37.702332] (-) TimerEvent: {}
+[37.803204] (-) TimerEvent: {}
+[37.904036] (-) TimerEvent: {}
+[38.005116] (-) TimerEvent: {}
+[38.106072] (-) TimerEvent: {}
+[38.207062] (-) TimerEvent: {}
+[38.307891] (-) TimerEvent: {}
+[38.408770] (-) TimerEvent: {}
+[38.509948] (-) TimerEvent: {}
+[38.610867] (-) TimerEvent: {}
+[38.695044] (serial) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[38.711079] (-) TimerEvent: {}
+[38.811879] (-) TimerEvent: {}
+[38.912620] (-) TimerEvent: {}
+[39.013651] (-) TimerEvent: {}
+[39.114665] (-) TimerEvent: {}
+[39.215642] (-) TimerEvent: {}
+[39.316959] (-) TimerEvent: {}
+[39.418145] (-) TimerEvent: {}
+[39.519310] (-) TimerEvent: {}
+[39.620315] (-) TimerEvent: {}
+[39.721815] (-) TimerEvent: {}
+[39.822942] (-) TimerEvent: {}
+[39.924326] (-) TimerEvent: {}
+[40.025252] (-) TimerEvent: {}
+[40.049013] (serial) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[40.070188] (serial) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[40.125664] (-) TimerEvent: {}
+[40.226277] (-) TimerEvent: {}
+[40.326927] (-) TimerEvent: {}
+[40.423941] (serial) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[40.424878] (serial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[40.427245] (-) TimerEvent: {}
+[40.528143] (-) TimerEvent: {}
+[40.629357] (-) TimerEvent: {}
+[40.730232] (-) TimerEvent: {}
+[40.772189] (serial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[40.776336] (serial) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[40.830471] (-) TimerEvent: {}
+[40.931322] (-) TimerEvent: {}
+[41.032304] (-) TimerEvent: {}
+[41.133279] (-) TimerEvent: {}
+[41.234318] (-) TimerEvent: {}
+[41.335631] (-) TimerEvent: {}
+[41.436590] (-) TimerEvent: {}
+[41.537235] (-) TimerEvent: {}
+[41.638282] (-) TimerEvent: {}
+[41.739251] (-) TimerEvent: {}
+[41.840555] (-) TimerEvent: {}
+[41.921983] (serial) StdoutLine: {'line': b'-- Configuring done\n'}
+[41.940855] (-) TimerEvent: {}
+[41.998303] (serial) StdoutLine: {'line': b'-- Generating done\n'}
+[42.020822] (serial) StdoutLine: {'line': b'-- Build files have been written to: /home/ali/Differentional-robot/Differentional_robot_ws/build/serial\n'}
+[42.033621] (serial) CommandEnded: {'returncode': 0}
+[42.041853] (-) TimerEvent: {}
+[42.045326] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[42.045650] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ali/Differentional-robot/Differentional_robot_ws/build/serial', '--', '-j4', '-l4'], 'cwd': '/home/ali/Differentional-robot/Differentional_robot_ws/build/serial', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ali'), ('GIT_ASKPASS', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ali'), ('OLDPWD', '/home/ali/Differentional-robot/Differentional_robot_ws/src'), ('TERM_PROGRAM_VERSION', '1.117.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5f6cc77a-cd56-4b04-836b-d6b906e0195f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install:/home/ali/perceptron_ws/install:/mnt/c/Users/HP/perceptron_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ali'), ('NAME', 'hp'), ('WSL_INTEROP', '/run/WSL/17641_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/bin/remote-cli:/home/ali/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-89b18544f1e46270.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/ali/.vscode-server/data/User/workspaceStorage/7522c7d0837fdf182a01af5027fd8942/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af6d472efb.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros:/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one:/home/ali/perceptron_ws/install/rplidar_ros:/home/ali/perceptron_ws/install/perceptron_driver:/home/ali/perceptron_ws/install/my_robot_slam:/home/ali/perceptron_ws/install/amr:/mnt/c/Users/HP/perceptron_ws/install/rplidar_ros:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/my_robot_slam:/mnt/c/Users/HP/perceptron_ws/install/amr:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ali/Differentional-robot/Differentional_robot_ws/build/serial'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ali/perceptron_ws/build/perceptron_driver:/home/ali/perceptron_ws/install/perceptron_driver/lib/python3.10/site-packages:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros:/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one:/home/ali/perceptron_ws/install/rplidar_ros:/home/ali/perceptron_ws/install/my_robot_slam:/home/ali/perceptron_ws/install/amr:/mnt/c/Users/HP/perceptron_ws/install/rplidar_ros:/mnt/c/Users/HP/perceptron_ws/install/my_robot_slam:/mnt/c/Users/HP/perceptron_ws/install/amr:/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[42.145888] (-) TimerEvent: {}
+[42.209939] (serial) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o\x1b[0m\n'}
+[42.210829] (serial) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[42.233967] (serial) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o\x1b[0m\n'}
+[42.245795] (serial) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[42.246391] (-) TimerEvent: {}
+[42.347106] (-) TimerEvent: {}
+[42.451566] (-) TimerEvent: {}
+[42.552264] (-) TimerEvent: {}
+[42.652921] (-) TimerEvent: {}
+[42.754004] (-) TimerEvent: {}
+[42.859512] (-) TimerEvent: {}
+[42.960319] (-) TimerEvent: {}
+[43.066945] (-) TimerEvent: {}
+[43.167746] (-) TimerEvent: {}
+[43.269240] (-) TimerEvent: {}
+[43.374966] (-) TimerEvent: {}
+[43.477217] (-) TimerEvent: {}
+[43.582791] (-) TimerEvent: {}
+[43.683675] (-) TimerEvent: {}
+[43.784989] (-) TimerEvent: {}
+[43.892478] (-) TimerEvent: {}
+[43.998148] (-) TimerEvent: {}
+[44.102154] (-) TimerEvent: {}
+[44.202891] (-) TimerEvent: {}
+[44.304158] (-) TimerEvent: {}
+[44.406327] (-) TimerEvent: {}
+[44.510529] (-) TimerEvent: {}
+[44.618157] (-) TimerEvent: {}
+[44.718940] (-) TimerEvent: {}
+[44.827254] (-) TimerEvent: {}
+[44.930411] (-) TimerEvent: {}
+[45.032157] (-) TimerEvent: {}
+[45.134566] (-) TimerEvent: {}
+[45.239233] (-) TimerEvent: {}
+[45.342063] (-) TimerEvent: {}
+[45.443818] (-) TimerEvent: {}
+[45.450244] (serial) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o\x1b[0m\n'}
+[45.545951] (-) TimerEvent: {}
+[45.650099] (-) TimerEvent: {}
+[45.751555] (-) TimerEvent: {}
+[45.855118] (-) TimerEvent: {}
+[45.956057] (-) TimerEvent: {}
+[46.064170] (-) TimerEvent: {}
+[46.165034] (-) TimerEvent: {}
+[46.276370] (-) TimerEvent: {}
+[46.377287] (-) TimerEvent: {}
+[46.479664] (-) TimerEvent: {}
+[46.583708] (-) TimerEvent: {}
+[46.687294] (-) TimerEvent: {}
+[46.794232] (-) TimerEvent: {}
+[46.896216] (-) TimerEvent: {}
+[46.998456] (-) TimerEvent: {}
+[47.100040] (-) TimerEvent: {}
+[47.206147] (-) TimerEvent: {}
+[47.306977] (-) TimerEvent: {}
+[47.407691] (-) TimerEvent: {}
+[47.510723] (-) TimerEvent: {}
+[47.614028] (-) TimerEvent: {}
+[47.719136] (-) TimerEvent: {}
+[47.823744] (-) TimerEvent: {}
+[47.926283] (-) TimerEvent: {}
+[48.028348] (-) TimerEvent: {}
+[48.130771] (-) TimerEvent: {}
+[48.234153] (-) TimerEvent: {}
+[48.336000] (-) TimerEvent: {}
+[48.439746] (-) TimerEvent: {}
+[48.545295] (-) TimerEvent: {}
+[48.646401] (-) TimerEvent: {}
+[48.659809] (serial) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX static library libserial.a\x1b[0m\n'}
+[48.746707] (-) TimerEvent: {}
+[48.828165] (serial) StdoutLine: {'line': b'[ 42%] Built target serial\n'}
+[48.847013] (-) TimerEvent: {}
+[48.914610] (serial) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o\x1b[0m\n'}
+[48.947372] (-) TimerEvent: {}
+[49.049268] (-) TimerEvent: {}
+[49.151944] (-) TimerEvent: {}
+[49.253843] (-) TimerEvent: {}
+[49.358564] (-) TimerEvent: {}
+[49.459896] (-) TimerEvent: {}
+[49.561104] (-) TimerEvent: {}
+[49.666276] (-) TimerEvent: {}
+[49.768083] (-) TimerEvent: {}
+[49.820674] (serial) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[49.868607] (-) TimerEvent: {}
+[49.966735] (serial) StdoutLine: {'line': b'[ 57%] Built target gtest_main\n'}
+[49.968943] (-) TimerEvent: {}
+[50.088033] (-) TimerEvent: {}
+[50.213979] (-) TimerEvent: {}
+[50.315996] (-) TimerEvent: {}
+[50.416851] (-) TimerEvent: {}
+[50.517387] (-) TimerEvent: {}
+[50.618989] (-) TimerEvent: {}
+[50.719725] (-) TimerEvent: {}
+[50.820828] (-) TimerEvent: {}
+[50.884979] (serial) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable serial_example\x1b[0m\n'}
+[50.921160] (-) TimerEvent: {}
+[51.022289] (-) TimerEvent: {}
+[51.123359] (-) TimerEvent: {}
+[51.224662] (-) TimerEvent: {}
+[51.306071] (serial) StdoutLine: {'line': b'[ 64%] Built target serial_example\n'}
+[51.325159] (-) TimerEvent: {}
+[51.426580] (-) TimerEvent: {}
+[51.527904] (-) TimerEvent: {}
+[51.629076] (-) TimerEvent: {}
+[51.730137] (-) TimerEvent: {}
+[51.831297] (-) TimerEvent: {}
+[51.932541] (-) TimerEvent: {}
+[52.033900] (-) TimerEvent: {}
+[52.134904] (-) TimerEvent: {}
+[52.235670] (-) TimerEvent: {}
+[52.337482] (-) TimerEvent: {}
+[52.438743] (-) TimerEvent: {}
+[52.540201] (-) TimerEvent: {}
+[52.641608] (-) TimerEvent: {}
+[52.742984] (-) TimerEvent: {}
+[52.844809] (-) TimerEvent: {}
+[52.946181] (-) TimerEvent: {}
+[53.047592] (-) TimerEvent: {}
+[53.148888] (-) TimerEvent: {}
+[53.250146] (-) TimerEvent: {}
+[53.351553] (-) TimerEvent: {}
+[53.453131] (-) TimerEvent: {}
+[53.554510] (-) TimerEvent: {}
+[53.656017] (-) TimerEvent: {}
+[53.757973] (-) TimerEvent: {}
+[53.858913] (-) TimerEvent: {}
+[53.959764] (-) TimerEvent: {}
+[54.061057] (-) TimerEvent: {}
+[54.163115] (-) TimerEvent: {}
+[54.264718] (-) TimerEvent: {}
+[54.366110] (-) TimerEvent: {}
+[54.466991] (-) TimerEvent: {}
+[54.567833] (-) TimerEvent: {}
+[54.668811] (-) TimerEvent: {}
+[54.769826] (-) TimerEvent: {}
+[54.870932] (-) TimerEvent: {}
+[54.972454] (-) TimerEvent: {}
+[55.073867] (-) TimerEvent: {}
+[55.175040] (-) TimerEvent: {}
+[55.276390] (-) TimerEvent: {}
+[55.377992] (-) TimerEvent: {}
+[55.479542] (-) TimerEvent: {}
+[55.581150] (-) TimerEvent: {}
+[55.682526] (-) TimerEvent: {}
+[55.783425] (-) TimerEvent: {}
+[55.884560] (-) TimerEvent: {}
+[55.985633] (-) TimerEvent: {}
+[56.086794] (-) TimerEvent: {}
+[56.187649] (-) TimerEvent: {}
+[56.290022] (-) TimerEvent: {}
+[56.390959] (-) TimerEvent: {}
+[56.492478] (-) TimerEvent: {}
+[56.593576] (-) TimerEvent: {}
+[56.695980] (-) TimerEvent: {}
+[56.797231] (-) TimerEvent: {}
+[56.898626] (-) TimerEvent: {}
+[56.999640] (-) TimerEvent: {}
+[57.100681] (-) TimerEvent: {}
+[57.201758] (-) TimerEvent: {}
+[57.303673] (-) TimerEvent: {}
+[57.404744] (-) TimerEvent: {}
+[57.506223] (-) TimerEvent: {}
+[57.607352] (-) TimerEvent: {}
+[57.709487] (-) TimerEvent: {}
+[57.810912] (-) TimerEvent: {}
+[57.912239] (-) TimerEvent: {}
+[58.013609] (-) TimerEvent: {}
+[58.115123] (-) TimerEvent: {}
+[58.216308] (-) TimerEvent: {}
+[58.317581] (-) TimerEvent: {}
+[58.418726] (-) TimerEvent: {}
+[58.519883] (-) TimerEvent: {}
+[58.620826] (-) TimerEvent: {}
+[58.721670] (-) TimerEvent: {}
+[58.823013] (-) TimerEvent: {}
+[58.924201] (-) TimerEvent: {}
+[59.027613] (-) TimerEvent: {}
+[59.128633] (-) TimerEvent: {}
+[59.158309] (serial) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[59.229295] (-) TimerEvent: {}
+[59.330335] (-) TimerEvent: {}
+[59.366221] (serial) StdoutLine: {'line': b'[ 71%] Built target gtest\n'}
+[59.426918] (serial) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o\x1b[0m\n'}
+[59.430718] (-) TimerEvent: {}
+[59.431345] (serial) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o\x1b[0m\n'}
+[59.530912] (-) TimerEvent: {}
+[59.631843] (-) TimerEvent: {}
+[59.732916] (-) TimerEvent: {}
+[59.834568] (-) TimerEvent: {}
+[59.936530] (-) TimerEvent: {}
+[60.038979] (-) TimerEvent: {}
+[60.141999] (-) TimerEvent: {}
+[60.243061] (-) TimerEvent: {}
+[60.345757] (-) TimerEvent: {}
+[60.448584] (-) TimerEvent: {}
+[60.551605] (-) TimerEvent: {}
+[60.655018] (-) TimerEvent: {}
+[60.757019] (-) TimerEvent: {}
+[60.858466] (-) TimerEvent: {}
+[60.960585] (-) TimerEvent: {}
+[61.061960] (-) TimerEvent: {}
+[61.163589] (-) TimerEvent: {}
+[61.266481] (-) TimerEvent: {}
+[61.369279] (-) TimerEvent: {}
+[61.471762] (-) TimerEvent: {}
+[61.574227] (-) TimerEvent: {}
+[61.677381] (-) TimerEvent: {}
+[61.780014] (-) TimerEvent: {}
+[61.881043] (-) TimerEvent: {}
+[61.983135] (-) TimerEvent: {}
+[62.084416] (-) TimerEvent: {}
+[62.185771] (-) TimerEvent: {}
+[62.287202] (-) TimerEvent: {}
+[62.388673] (-) TimerEvent: {}
+[62.490418] (-) TimerEvent: {}
+[62.592188] (-) TimerEvent: {}
+[62.694355] (-) TimerEvent: {}
+[62.797250] (-) TimerEvent: {}
+[62.898365] (-) TimerEvent: {}
+[62.999310] (-) TimerEvent: {}
+[63.100244] (-) TimerEvent: {}
+[63.201176] (-) TimerEvent: {}
+[63.302645] (-) TimerEvent: {}
+[63.403580] (-) TimerEvent: {}
+[63.504591] (-) TimerEvent: {}
+[63.606557] (-) TimerEvent: {}
+[63.709492] (-) TimerEvent: {}
+[63.810593] (-) TimerEvent: {}
+[63.913341] (-) TimerEvent: {}
+[64.014329] (-) TimerEvent: {}
+[64.117787] (-) TimerEvent: {}
+[64.219267] (-) TimerEvent: {}
+[64.321913] (-) TimerEvent: {}
+[64.423392] (-) TimerEvent: {}
+[64.524882] (-) TimerEvent: {}
+[64.626200] (-) TimerEvent: {}
+[64.729106] (-) TimerEvent: {}
+[64.831182] (-) TimerEvent: {}
+[64.933735] (-) TimerEvent: {}
+[64.998694] (serial) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/bind.hpp:30\x1b[m\x1b[K,\n'}
+[64.999274] (serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ali/Differentional-robot/Differentional_robot_ws/src/serial/tests/unix_serial_tests.cc:23\x1b[m\x1b[K:\n'}
+[64.999596] (serial) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[65.000065] (serial) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[65.000397] (serial) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[65.034754] (-) TimerEvent: {}
+[65.113277] (serial) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable serial-test-timer\x1b[0m\n'}
+[65.134910] (-) TimerEvent: {}
+[65.235974] (-) TimerEvent: {}
+[65.337939] (-) TimerEvent: {}
+[65.439778] (-) TimerEvent: {}
+[65.543595] (-) TimerEvent: {}
+[65.645473] (-) TimerEvent: {}
+[65.704629] (serial) StdoutLine: {'line': b'[ 92%] Built target serial-test-timer\n'}
+[65.746208] (-) TimerEvent: {}
+[65.805658] (serial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable serial-test\x1b[0m\n'}
+[65.846435] (-) TimerEvent: {}
+[65.947481] (-) TimerEvent: {}
+[66.049528] (-) TimerEvent: {}
+[66.150511] (-) TimerEvent: {}
+[66.253372] (-) TimerEvent: {}
+[66.356983] (-) TimerEvent: {}
+[66.444686] (serial) StdoutLine: {'line': b'[100%] Built target serial-test\n'}
+[66.457598] (-) TimerEvent: {}
+[66.481296] (serial) CommandEnded: {'returncode': 0}
+[66.487049] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[66.491595] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ali/Differentional-robot/Differentional_robot_ws/build/serial'], 'cwd': '/home/ali/Differentional-robot/Differentional_robot_ws/build/serial', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ali'), ('GIT_ASKPASS', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ali'), ('OLDPWD', '/home/ali/Differentional-robot/Differentional_robot_ws/src'), ('TERM_PROGRAM_VERSION', '1.117.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5f6cc77a-cd56-4b04-836b-d6b906e0195f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install:/home/ali/perceptron_ws/install:/mnt/c/Users/HP/perceptron_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ali'), ('NAME', 'hp'), ('WSL_INTEROP', '/run/WSL/17641_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/bin/remote-cli:/home/ali/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-89b18544f1e46270.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/ali/.vscode-server/data/User/workspaceStorage/7522c7d0837fdf182a01af5027fd8942/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af6d472efb.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros:/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one:/home/ali/perceptron_ws/install/rplidar_ros:/home/ali/perceptron_ws/install/perceptron_driver:/home/ali/perceptron_ws/install/my_robot_slam:/home/ali/perceptron_ws/install/amr:/mnt/c/Users/HP/perceptron_ws/install/rplidar_ros:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/my_robot_slam:/mnt/c/Users/HP/perceptron_ws/install/amr:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ali/Differentional-robot/Differentional_robot_ws/build/serial'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ali/perceptron_ws/build/perceptron_driver:/home/ali/perceptron_ws/install/perceptron_driver/lib/python3.10/site-packages:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros:/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one:/home/ali/perceptron_ws/install/rplidar_ros:/home/ali/perceptron_ws/install/my_robot_slam:/home/ali/perceptron_ws/install/amr:/mnt/c/Users/HP/perceptron_ws/install/rplidar_ros:/mnt/c/Users/HP/perceptron_ws/install/my_robot_slam:/mnt/c/Users/HP/perceptron_ws/install/amr:/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[66.516163] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[66.517555] (serial) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[66.519880] (serial) StdoutLine: {'line': b'-- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/lib/libserial.a\n'}
+[66.547647] (serial) StdoutLine: {'line': b'-- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/include/serial/serial.h\n'}
+[66.558284] (-) TimerEvent: {}
+[66.574950] (serial) StdoutLine: {'line': b'-- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/include/serial/v8stdint.h\n'}
+[66.603341] (serial) StdoutLine: {'line': b'-- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/environment/library_path.sh\n'}
+[66.638616] (serial) StdoutLine: {'line': b'-- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/environment/library_path.dsv\n'}
+[66.658618] (-) TimerEvent: {}
+[66.664842] (serial) StdoutLine: {'line': b'-- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[66.697841] (serial) StdoutLine: {'line': b'-- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[66.723873] (serial) StdoutLine: {'line': b'-- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[66.750567] (serial) StdoutLine: {'line': b'-- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[66.758961] (-) TimerEvent: {}
+[66.776479] (serial) StdoutLine: {'line': b'-- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/environment/path.sh\n'}
+[66.806314] (serial) StdoutLine: {'line': b'-- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/environment/path.dsv\n'}
+[66.831908] (serial) StdoutLine: {'line': b'-- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/local_setup.bash\n'}
+[66.858102] (serial) StdoutLine: {'line': b'-- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/local_setup.sh\n'}
+[66.859136] (-) TimerEvent: {}
+[66.894471] (serial) StdoutLine: {'line': b'-- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/local_setup.zsh\n'}
+[66.921388] (serial) StdoutLine: {'line': b'-- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/local_setup.dsv\n'}
+[66.948245] (serial) StdoutLine: {'line': b'-- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/package.dsv\n'}
+[66.959393] (-) TimerEvent: {}
+[66.976091] (serial) StdoutLine: {'line': b'-- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[67.006536] (serial) StdoutLine: {'line': b'-- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[67.028055] (serial) StdoutLine: {'line': b'-- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[67.053901] (serial) StdoutLine: {'line': b'-- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[67.060352] (-) TimerEvent: {}
+[67.088346] (serial) StdoutLine: {'line': b'-- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[67.120742] (serial) StdoutLine: {'line': b'-- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/package.xml\n'}
+[67.161293] (serial) CommandEnded: {'returncode': 0}
+[67.166054] (-) TimerEvent: {}
+[67.235191] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[67.252058] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[67.266768] (-) TimerEvent: {}
+[67.367999] (-) TimerEvent: {}
+[67.469362] (-) TimerEvent: {}
+[67.571015] (-) TimerEvent: {}
+[67.671989] (-) TimerEvent: {}
+[67.772755] (-) TimerEvent: {}
+[67.874182] (-) TimerEvent: {}
+[67.976325] (-) TimerEvent: {}
+[68.068914] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[68.075103] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino'], 'cwd': '/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ali'), ('GIT_ASKPASS', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ali'), ('OLDPWD', '/home/ali/Differentional-robot/Differentional_robot_ws/src'), ('TERM_PROGRAM_VERSION', '1.117.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5f6cc77a-cd56-4b04-836b-d6b906e0195f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install:/home/ali/perceptron_ws/install:/mnt/c/Users/HP/perceptron_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ali'), ('NAME', 'hp'), ('WSL_INTEROP', '/run/WSL/17641_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/bin/remote-cli:/home/ali/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-89b18544f1e46270.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/ali/.vscode-server/data/User/workspaceStorage/7522c7d0837fdf182a01af5027fd8942/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af6d472efb.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial:/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros:/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one:/home/ali/perceptron_ws/install/rplidar_ros:/home/ali/perceptron_ws/install/perceptron_driver:/home/ali/perceptron_ws/install/my_robot_slam:/home/ali/perceptron_ws/install/amr:/mnt/c/Users/HP/perceptron_ws/install/rplidar_ros:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/my_robot_slam:/mnt/c/Users/HP/perceptron_ws/install/amr:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ali/perceptron_ws/build/perceptron_driver:/home/ali/perceptron_ws/install/perceptron_driver/lib/python3.10/site-packages:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble:/home/ali/Differentional-robot/Differentional_robot_ws/install/serial:/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros:/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one:/home/ali/perceptron_ws/install/rplidar_ros:/home/ali/perceptron_ws/install/my_robot_slam:/home/ali/perceptron_ws/install/amr:/mnt/c/Users/HP/perceptron_ws/install/rplidar_ros:/mnt/c/Users/HP/perceptron_ws/install/my_robot_slam:/mnt/c/Users/HP/perceptron_ws/install/amr'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[68.081619] (-) TimerEvent: {}
+[68.109321] (diffdrive_arduino) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[68.182145] (-) TimerEvent: {}
+[68.283346] (-) TimerEvent: {}
+[68.384462] (-) TimerEvent: {}
+[68.485530] (-) TimerEvent: {}
+[68.586648] (-) TimerEvent: {}
+[68.687423] (-) TimerEvent: {}
+[68.788506] (-) TimerEvent: {}
+[68.889797] (-) TimerEvent: {}
+[68.990886] (-) TimerEvent: {}
+[69.091920] (-) TimerEvent: {}
+[69.192825] (-) TimerEvent: {}
+[69.294038] (-) TimerEvent: {}
+[69.395350] (-) TimerEvent: {}
+[69.496349] (-) TimerEvent: {}
+[69.597176] (-) TimerEvent: {}
+[69.698647] (-) TimerEvent: {}
+[69.799974] (-) TimerEvent: {}
+[69.901038] (-) TimerEvent: {}
+[70.001890] (-) TimerEvent: {}
+[70.103005] (-) TimerEvent: {}
+[70.203808] (-) TimerEvent: {}
+[70.304793] (-) TimerEvent: {}
+[70.405931] (-) TimerEvent: {}
+[70.506847] (-) TimerEvent: {}
+[70.608028] (-) TimerEvent: {}
+[70.709023] (-) TimerEvent: {}
+[70.800328] (diffdrive_arduino) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[70.809375] (-) TimerEvent: {}
+[70.910177] (-) TimerEvent: {}
+[71.011024] (-) TimerEvent: {}
+[71.112541] (-) TimerEvent: {}
+[71.213371] (-) TimerEvent: {}
+[71.223169] (diffdrive_arduino) StdoutLine: {'line': b'-- Found serial: 1.2.1 (/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/share/serial/cmake)\n'}
+[71.313850] (-) TimerEvent: {}
+[71.414961] (-) TimerEvent: {}
+[71.516016] (-) TimerEvent: {}
+[71.573862] (diffdrive_arduino) StdoutLine: {'line': b'-- Found hardware_interface: 2.53.1 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[71.616401] (-) TimerEvent: {}
+[71.717518] (-) TimerEvent: {}
+[71.818416] (-) TimerEvent: {}
+[71.919323] (-) TimerEvent: {}
+[72.020280] (-) TimerEvent: {}
+[72.121396] (-) TimerEvent: {}
+[72.222414] (-) TimerEvent: {}
+[72.323656] (-) TimerEvent: {}
+[72.424457] (-) TimerEvent: {}
+[72.525271] (-) TimerEvent: {}
+[72.626173] (-) TimerEvent: {}
+[72.727419] (-) TimerEvent: {}
+[72.828669] (-) TimerEvent: {}
+[72.929635] (-) TimerEvent: {}
+[73.030879] (-) TimerEvent: {}
+[73.132017] (-) TimerEvent: {}
+[73.233348] (-) TimerEvent: {}
+[73.334576] (-) TimerEvent: {}
+[73.435546] (-) TimerEvent: {}
+[73.536492] (-) TimerEvent: {}
+[73.638110] (-) TimerEvent: {}
+[73.739305] (-) TimerEvent: {}
+[73.840304] (-) TimerEvent: {}
+[73.941139] (-) TimerEvent: {}
+[74.042242] (-) TimerEvent: {}
+[74.143235] (-) TimerEvent: {}
+[74.244032] (-) TimerEvent: {}
+[74.344835] (-) TimerEvent: {}
+[74.445988] (-) TimerEvent: {}
+[74.546776] (-) TimerEvent: {}
+[74.647991] (-) TimerEvent: {}
+[74.748973] (-) TimerEvent: {}
+[74.850019] (-) TimerEvent: {}
+[74.950830] (-) TimerEvent: {}
+[75.051749] (-) TimerEvent: {}
+[75.152489] (-) TimerEvent: {}
+[75.253287] (-) TimerEvent: {}
+[75.354217] (-) TimerEvent: {}
+[75.455074] (-) TimerEvent: {}
+[75.555895] (-) TimerEvent: {}
+[75.656939] (-) TimerEvent: {}
+[75.758069] (-) TimerEvent: {}
+[75.859117] (-) TimerEvent: {}
+[75.959973] (-) TimerEvent: {}
+[76.060695] (-) TimerEvent: {}
+[76.161525] (-) TimerEvent: {}
+[76.262966] (-) TimerEvent: {}
+[76.363617] (-) TimerEvent: {}
+[76.464592] (-) TimerEvent: {}
+[76.565309] (-) TimerEvent: {}
+[76.666576] (-) TimerEvent: {}
+[76.744503] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[76.766811] (-) TimerEvent: {}
+[76.867961] (-) TimerEvent: {}
+[76.969114] (-) TimerEvent: {}
+[77.069938] (-) TimerEvent: {}
+[77.171078] (-) TimerEvent: {}
+[77.271853] (-) TimerEvent: {}
+[77.372745] (-) TimerEvent: {}
+[77.473538] (-) TimerEvent: {}
+[77.488235] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[77.573926] (-) TimerEvent: {}
+[77.674846] (-) TimerEvent: {}
+[77.775822] (-) TimerEvent: {}
+[77.876781] (-) TimerEvent: {}
+[77.977848] (-) TimerEvent: {}
+[78.078640] (-) TimerEvent: {}
+[78.179711] (-) TimerEvent: {}
+[78.252597] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[78.279876] (-) TimerEvent: {}
+[78.380664] (-) TimerEvent: {}
+[78.481756] (-) TimerEvent: {}
+[78.582704] (-) TimerEvent: {}
+[78.684170] (-) TimerEvent: {}
+[78.785152] (-) TimerEvent: {}
+[78.886051] (-) TimerEvent: {}
+[78.987189] (-) TimerEvent: {}
+[79.069273] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[79.087371] (-) TimerEvent: {}
+[79.188407] (-) TimerEvent: {}
+[79.289193] (-) TimerEvent: {}
+[79.389974] (-) TimerEvent: {}
+[79.490737] (-) TimerEvent: {}
+[79.591536] (-) TimerEvent: {}
+[79.692339] (-) TimerEvent: {}
+[79.793120] (-) TimerEvent: {}
+[79.893870] (-) TimerEvent: {}
+[79.994927] (-) TimerEvent: {}
+[80.095644] (-) TimerEvent: {}
+[80.164312] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[80.195990] (-) TimerEvent: {}
+[80.296716] (-) TimerEvent: {}
+[80.397937] (-) TimerEvent: {}
+[80.498856] (-) TimerEvent: {}
+[80.599690] (-) TimerEvent: {}
+[80.700705] (-) TimerEvent: {}
+[80.802243] (-) TimerEvent: {}
+[80.902991] (-) TimerEvent: {}
+[81.003764] (-) TimerEvent: {}
+[81.105094] (-) TimerEvent: {}
+[81.205971] (-) TimerEvent: {}
+[81.307056] (-) TimerEvent: {}
+[81.407918] (-) TimerEvent: {}
+[81.509214] (-) TimerEvent: {}
+[81.610083] (-) TimerEvent: {}
+[81.710953] (-) TimerEvent: {}
+[81.811766] (-) TimerEvent: {}
+[81.912775] (-) TimerEvent: {}
+[82.014106] (-) TimerEvent: {}
+[82.115343] (-) TimerEvent: {}
+[82.216091] (-) TimerEvent: {}
+[82.317470] (-) TimerEvent: {}
+[82.418730] (-) TimerEvent: {}
+[82.519581] (-) TimerEvent: {}
+[82.620494] (-) TimerEvent: {}
+[82.721412] (-) TimerEvent: {}
+[82.822406] (-) TimerEvent: {}
+[82.923117] (-) TimerEvent: {}
+[83.024040] (-) TimerEvent: {}
+[83.125020] (-) TimerEvent: {}
+[83.225872] (-) TimerEvent: {}
+[83.326838] (-) TimerEvent: {}
+[83.427571] (-) TimerEvent: {}
+[83.528424] (-) TimerEvent: {}
+[83.629411] (-) TimerEvent: {}
+[83.730267] (-) TimerEvent: {}
+[83.831051] (-) TimerEvent: {}
+[83.932148] (-) TimerEvent: {}
+[84.033291] (-) TimerEvent: {}
+[84.134355] (-) TimerEvent: {}
+[84.235377] (-) TimerEvent: {}
+[84.336264] (-) TimerEvent: {}
+[84.437128] (-) TimerEvent: {}
+[84.538071] (-) TimerEvent: {}
+[84.638874] (-) TimerEvent: {}
+[84.739798] (-) TimerEvent: {}
+[84.840866] (-) TimerEvent: {}
+[84.941962] (-) TimerEvent: {}
+[85.043113] (-) TimerEvent: {}
+[85.143975] (-) TimerEvent: {}
+[85.244935] (-) TimerEvent: {}
+[85.346083] (-) TimerEvent: {}
+[85.446920] (-) TimerEvent: {}
+[85.547765] (-) TimerEvent: {}
+[85.648709] (-) TimerEvent: {}
+[85.750031] (-) TimerEvent: {}
+[85.851117] (-) TimerEvent: {}
+[85.951987] (-) TimerEvent: {}
+[86.053029] (-) TimerEvent: {}
+[86.153951] (-) TimerEvent: {}
+[86.254863] (-) TimerEvent: {}
+[86.355981] (-) TimerEvent: {}
+[86.457084] (-) TimerEvent: {}
+[86.558052] (-) TimerEvent: {}
+[86.658997] (-) TimerEvent: {}
+[86.759903] (-) TimerEvent: {}
+[86.861002] (-) TimerEvent: {}
+[86.961988] (-) TimerEvent: {}
+[87.062886] (-) TimerEvent: {}
+[87.163650] (-) TimerEvent: {}
+[87.264507] (-) TimerEvent: {}
+[87.365568] (-) TimerEvent: {}
+[87.466682] (-) TimerEvent: {}
+[87.567550] (-) TimerEvent: {}
+[87.668666] (-) TimerEvent: {}
+[87.769643] (-) TimerEvent: {}
+[87.871182] (-) TimerEvent: {}
+[87.972215] (-) TimerEvent: {}
+[88.073381] (-) TimerEvent: {}
+[88.174321] (-) TimerEvent: {}
+[88.275323] (-) TimerEvent: {}
+[88.376390] (-) TimerEvent: {}
+[88.477620] (-) TimerEvent: {}
+[88.578673] (-) TimerEvent: {}
+[88.679739] (-) TimerEvent: {}
+[88.781084] (-) TimerEvent: {}
+[88.882087] (-) TimerEvent: {}
+[88.983123] (-) TimerEvent: {}
+[89.084048] (-) TimerEvent: {}
+[89.184887] (-) TimerEvent: {}
+[89.285969] (-) TimerEvent: {}
+[89.387115] (-) TimerEvent: {}
+[89.488553] (-) TimerEvent: {}
+[89.589918] (-) TimerEvent: {}
+[89.690701] (-) TimerEvent: {}
+[89.791669] (-) TimerEvent: {}
+[89.893039] (-) TimerEvent: {}
+[89.993995] (-) TimerEvent: {}
+[90.094789] (-) TimerEvent: {}
+[90.195899] (-) TimerEvent: {}
+[90.296900] (-) TimerEvent: {}
+[90.398484] (-) TimerEvent: {}
+[90.499719] (-) TimerEvent: {}
+[90.600690] (-) TimerEvent: {}
+[90.701511] (-) TimerEvent: {}
+[90.802479] (-) TimerEvent: {}
+[90.903443] (-) TimerEvent: {}
+[91.004364] (-) TimerEvent: {}
+[91.105423] (-) TimerEvent: {}
+[91.206247] (-) TimerEvent: {}
+[91.307277] (-) TimerEvent: {}
+[91.408494] (-) TimerEvent: {}
+[91.509523] (-) TimerEvent: {}
+[91.610901] (-) TimerEvent: {}
+[91.712032] (-) TimerEvent: {}
+[91.813291] (-) TimerEvent: {}
+[91.914241] (-) TimerEvent: {}
+[92.015155] (-) TimerEvent: {}
+[92.116397] (-) TimerEvent: {}
+[92.217360] (-) TimerEvent: {}
+[92.318375] (-) TimerEvent: {}
+[92.419236] (-) TimerEvent: {}
+[92.520248] (-) TimerEvent: {}
+[92.621353] (-) TimerEvent: {}
+[92.722253] (-) TimerEvent: {}
+[92.823811] (-) TimerEvent: {}
+[92.924635] (-) TimerEvent: {}
+[93.025547] (-) TimerEvent: {}
+[93.126669] (-) TimerEvent: {}
+[93.227625] (-) TimerEvent: {}
+[93.328815] (-) TimerEvent: {}
+[93.430199] (-) TimerEvent: {}
+[93.531773] (-) TimerEvent: {}
+[93.632881] (-) TimerEvent: {}
+[93.734041] (-) TimerEvent: {}
+[93.834949] (-) TimerEvent: {}
+[93.935798] (-) TimerEvent: {}
+[94.036739] (-) TimerEvent: {}
+[94.137855] (-) TimerEvent: {}
+[94.238861] (-) TimerEvent: {}
+[94.339697] (-) TimerEvent: {}
+[94.440892] (-) TimerEvent: {}
+[94.541997] (-) TimerEvent: {}
+[94.643120] (-) TimerEvent: {}
+[94.744437] (-) TimerEvent: {}
+[94.845476] (-) TimerEvent: {}
+[94.946599] (-) TimerEvent: {}
+[95.047449] (-) TimerEvent: {}
+[95.148369] (-) TimerEvent: {}
+[95.249280] (-) TimerEvent: {}
+[95.350271] (-) TimerEvent: {}
+[95.451252] (-) TimerEvent: {}
+[95.552100] (-) TimerEvent: {}
+[95.620346] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[95.652594] (-) TimerEvent: {}
+[95.753629] (-) TimerEvent: {}
+[95.854967] (-) TimerEvent: {}
+[95.956147] (-) TimerEvent: {}
+[96.057201] (-) TimerEvent: {}
+[96.137457] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[96.157656] (-) TimerEvent: {}
+[96.258629] (-) TimerEvent: {}
+[96.359517] (-) TimerEvent: {}
+[96.460355] (-) TimerEvent: {}
+[96.561483] (-) TimerEvent: {}
+[96.662653] (-) TimerEvent: {}
+[96.763620] (-) TimerEvent: {}
+[96.864866] (-) TimerEvent: {}
+[96.965967] (-) TimerEvent: {}
+[97.067123] (-) TimerEvent: {}
+[97.168263] (-) TimerEvent: {}
+[97.270073] (-) TimerEvent: {}
+[97.371105] (-) TimerEvent: {}
+[97.472311] (-) TimerEvent: {}
+[97.573292] (-) TimerEvent: {}
+[97.674518] (-) TimerEvent: {}
+[97.775487] (-) TimerEvent: {}
+[97.876934] (-) TimerEvent: {}
+[97.977929] (-) TimerEvent: {}
+[98.078725] (-) TimerEvent: {}
+[98.179621] (-) TimerEvent: {}
+[98.280708] (-) TimerEvent: {}
+[98.381996] (-) TimerEvent: {}
+[98.407223] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[98.482294] (-) TimerEvent: {}
+[98.583411] (-) TimerEvent: {}
+[98.684312] (-) TimerEvent: {}
+[98.785291] (-) TimerEvent: {}
+[98.886413] (-) TimerEvent: {}
+[98.987639] (-) TimerEvent: {}
+[99.088545] (-) TimerEvent: {}
+[99.189518] (-) TimerEvent: {}
+[99.290544] (-) TimerEvent: {}
+[99.391424] (-) TimerEvent: {}
+[99.492452] (-) TimerEvent: {}
+[99.593522] (-) TimerEvent: {}
+[99.694556] (-) TimerEvent: {}
+[99.795433] (-) TimerEvent: {}
+[99.896278] (-) TimerEvent: {}
+[99.997379] (-) TimerEvent: {}
+[100.098343] (-) TimerEvent: {}
+[100.199426] (-) TimerEvent: {}
+[100.300568] (-) TimerEvent: {}
+[100.401507] (-) TimerEvent: {}
+[100.502637] (-) TimerEvent: {}
+[100.603878] (-) TimerEvent: {}
+[100.704673] (-) TimerEvent: {}
+[100.805787] (-) TimerEvent: {}
+[100.906506] (-) TimerEvent: {}
+[100.910040] (diffdrive_arduino) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[100.927918] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[101.006977] (-) TimerEvent: {}
+[101.108039] (-) TimerEvent: {}
+[101.208989] (-) TimerEvent: {}
+[101.309798] (-) TimerEvent: {}
+[101.410829] (-) TimerEvent: {}
+[101.511582] (-) TimerEvent: {}
+[101.612825] (-) TimerEvent: {}
+[101.714033] (-) TimerEvent: {}
+[101.764670] (diffdrive_arduino) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[101.786216] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[101.812537] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[101.814653] (-) TimerEvent: {}
+[101.915413] (-) TimerEvent: {}
+[102.016635] (-) TimerEvent: {}
+[102.117531] (-) TimerEvent: {}
+[102.220152] (-) TimerEvent: {}
+[102.321491] (-) TimerEvent: {}
+[102.422665] (-) TimerEvent: {}
+[102.427495] (diffdrive_arduino) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[102.523089] (-) TimerEvent: {}
+[102.624134] (-) TimerEvent: {}
+[102.724853] (-) TimerEvent: {}
+[102.825945] (-) TimerEvent: {}
+[102.927191] (-) TimerEvent: {}
+[103.028355] (-) TimerEvent: {}
+[103.129663] (-) TimerEvent: {}
+[103.231222] (-) TimerEvent: {}
+[103.332359] (-) TimerEvent: {}
+[103.433098] (-) TimerEvent: {}
+[103.534091] (-) TimerEvent: {}
+[103.635243] (-) TimerEvent: {}
+[103.736861] (-) TimerEvent: {}
+[103.837952] (-) TimerEvent: {}
+[103.939297] (-) TimerEvent: {}
+[104.040396] (-) TimerEvent: {}
+[104.141387] (-) TimerEvent: {}
+[104.242277] (-) TimerEvent: {}
+[104.343281] (-) TimerEvent: {}
+[104.444499] (-) TimerEvent: {}
+[104.499431] (diffdrive_arduino) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[104.544777] (-) TimerEvent: {}
+[104.645817] (-) TimerEvent: {}
+[104.746742] (-) TimerEvent: {}
+[104.845029] (diffdrive_arduino) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[104.845904] (diffdrive_arduino) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[104.846834] (-) TimerEvent: {}
+[104.947839] (-) TimerEvent: {}
+[105.049049] (-) TimerEvent: {}
+[105.149879] (-) TimerEvent: {}
+[105.188757] (diffdrive_arduino) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[105.191346] (diffdrive_arduino) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[105.250172] (-) TimerEvent: {}
+[105.351180] (-) TimerEvent: {}
+[105.452193] (-) TimerEvent: {}
+[105.553040] (-) TimerEvent: {}
+[105.654150] (-) TimerEvent: {}
+[105.755033] (-) TimerEvent: {}
+[105.856059] (-) TimerEvent: {}
+[105.957069] (-) TimerEvent: {}
+[106.058052] (-) TimerEvent: {}
+[106.159121] (-) TimerEvent: {}
+[106.259888] (-) TimerEvent: {}
+[106.360999] (-) TimerEvent: {}
+[106.461926] (-) TimerEvent: {}
+[106.562951] (-) TimerEvent: {}
+[106.664125] (-) TimerEvent: {}
+[106.765035] (-) TimerEvent: {}
+[106.866063] (-) TimerEvent: {}
+[106.967222] (-) TimerEvent: {}
+[107.068234] (-) TimerEvent: {}
+[107.169228] (-) TimerEvent: {}
+[107.270009] (-) TimerEvent: {}
+[107.370996] (-) TimerEvent: {}
+[107.471922] (-) TimerEvent: {}
+[107.572957] (-) TimerEvent: {}
+[107.673981] (-) TimerEvent: {}
+[107.774914] (-) TimerEvent: {}
+[107.875972] (-) TimerEvent: {}
+[107.977304] (-) TimerEvent: {}
+[108.078770] (-) TimerEvent: {}
+[108.181433] (-) TimerEvent: {}
+[108.284418] (-) TimerEvent: {}
+[108.386021] (-) TimerEvent: {}
+[108.487664] (-) TimerEvent: {}
+[108.499269] (diffdrive_arduino) StdoutLine: {'line': b'-- Found controller_manager: 2.53.1 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[108.588280] (-) TimerEvent: {}
+[108.689528] (-) TimerEvent: {}
+[108.790998] (-) TimerEvent: {}
+[108.892173] (-) TimerEvent: {}
+[108.993920] (-) TimerEvent: {}
+[109.095339] (-) TimerEvent: {}
+[109.196704] (-) TimerEvent: {}
+[109.298172] (-) TimerEvent: {}
+[109.399586] (-) TimerEvent: {}
+[109.500971] (-) TimerEvent: {}
+[109.602489] (-) TimerEvent: {}
+[109.703865] (-) TimerEvent: {}
+[109.804948] (-) TimerEvent: {}
+[109.906268] (-) TimerEvent: {}
+[110.007282] (-) TimerEvent: {}
+[110.108319] (-) TimerEvent: {}
+[110.209651] (-) TimerEvent: {}
+[110.311255] (-) TimerEvent: {}
+[110.412287] (-) TimerEvent: {}
+[110.513757] (-) TimerEvent: {}
+[110.616083] (-) TimerEvent: {}
+[110.717402] (-) TimerEvent: {}
+[110.818787] (-) TimerEvent: {}
+[110.919978] (-) TimerEvent: {}
+[111.021112] (-) TimerEvent: {}
+[111.123544] (-) TimerEvent: {}
+[111.224810] (-) TimerEvent: {}
+[111.326032] (-) TimerEvent: {}
+[111.428842] (-) TimerEvent: {}
+[111.530374] (-) TimerEvent: {}
+[111.631453] (-) TimerEvent: {}
+[111.732777] (-) TimerEvent: {}
+[111.835241] (-) TimerEvent: {}
+[111.937190] (-) TimerEvent: {}
+[112.039592] (-) TimerEvent: {}
+[112.140831] (-) TimerEvent: {}
+[112.175100] (diffdrive_arduino) StdoutLine: {'line': b'-- Configuring done\n'}
+[112.241430] (-) TimerEvent: {}
+[112.254277] (diffdrive_arduino) StdoutLine: {'line': b'-- Generating done\n'}
+[112.289323] (diffdrive_arduino) StdoutLine: {'line': b'-- Build files have been written to: /home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino\n'}
+[112.320851] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[112.331022] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[112.332181] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino', '--', '-j4', '-l4'], 'cwd': '/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ali'), ('GIT_ASKPASS', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ali'), ('OLDPWD', '/home/ali/Differentional-robot/Differentional_robot_ws/src'), ('TERM_PROGRAM_VERSION', '1.117.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5f6cc77a-cd56-4b04-836b-d6b906e0195f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install:/home/ali/perceptron_ws/install:/mnt/c/Users/HP/perceptron_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ali'), ('NAME', 'hp'), ('WSL_INTEROP', '/run/WSL/17641_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/bin/remote-cli:/home/ali/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-89b18544f1e46270.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/ali/.vscode-server/data/User/workspaceStorage/7522c7d0837fdf182a01af5027fd8942/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af6d472efb.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install/serial:/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros:/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one:/home/ali/perceptron_ws/install/rplidar_ros:/home/ali/perceptron_ws/install/perceptron_driver:/home/ali/perceptron_ws/install/my_robot_slam:/home/ali/perceptron_ws/install/amr:/mnt/c/Users/HP/perceptron_ws/install/rplidar_ros:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/my_robot_slam:/mnt/c/Users/HP/perceptron_ws/install/amr:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ali/perceptron_ws/build/perceptron_driver:/home/ali/perceptron_ws/install/perceptron_driver/lib/python3.10/site-packages:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble:/home/ali/Differentional-robot/Differentional_robot_ws/install/serial:/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros:/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one:/home/ali/perceptron_ws/install/rplidar_ros:/home/ali/perceptron_ws/install/my_robot_slam:/home/ali/perceptron_ws/install/amr:/mnt/c/Users/HP/perceptron_ws/install/rplidar_ros:/mnt/c/Users/HP/perceptron_ws/install/my_robot_slam:/mnt/c/Users/HP/perceptron_ws/install/amr'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[112.346191] (-) TimerEvent: {}
+[112.447116] (-) TimerEvent: {}
+[112.522566] (diffdrive_arduino) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o\x1b[0m\n'}
+[112.538339] (diffdrive_arduino) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o\x1b[0m\n'}
+[112.542062] (diffdrive_arduino) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/fake_robot.dir/src/wheel.cpp.o\x1b[0m\n'}
+[112.542759] (diffdrive_arduino) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/wheel.cpp.o\x1b[0m\n'}
+[112.549446] (-) TimerEvent: {}
+[112.650843] (-) TimerEvent: {}
+[112.751635] (-) TimerEvent: {}
+[112.853966] (-) TimerEvent: {}
+[112.955107] (-) TimerEvent: {}
+[113.058660] (-) TimerEvent: {}
+[113.166196] (-) TimerEvent: {}
+[113.266995] (-) TimerEvent: {}
+[113.367771] (-) TimerEvent: {}
+[113.468851] (-) TimerEvent: {}
+[113.577887] (-) TimerEvent: {}
+[113.682118] (-) TimerEvent: {}
+[113.786074] (-) TimerEvent: {}
+[113.886783] (-) TimerEvent: {}
+[113.990474] (-) TimerEvent: {}
+[114.092362] (-) TimerEvent: {}
+[114.194885] (-) TimerEvent: {}
+[114.299083] (-) TimerEvent: {}
+[114.300949] (diffdrive_arduino) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:1\x1b[m\x1b[K:\n'}
+[114.303182] (diffdrive_arduino) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino.h:7:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Khardware_interface/base_interface.hpp: No such file or directory\n'}
+[114.303989] (diffdrive_arduino) StderrLine: {'line': b'    7 | #include \x1b[01;31m\x1b[K"hardware_interface/base_interface.hpp"\x1b[m\x1b[K\n'}
+[114.304436] (diffdrive_arduino) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[114.304996] (diffdrive_arduino) StderrLine: {'line': b'compilation terminated.\n'}
+[114.305263] (diffdrive_arduino) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/src/fake_robot.cpp:1\x1b[m\x1b[K:\n'}
+[114.305465] (diffdrive_arduino) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/include/diffdrive_arduino/fake_robot.h:7:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Khardware_interface/base_interface.hpp: No such file or directory\n'}
+[114.312611] (diffdrive_arduino) StderrLine: {'line': b'    7 | #include \x1b[01;31m\x1b[K"hardware_interface/base_interface.hpp"\x1b[m\x1b[K\n'}
+[114.316368] (diffdrive_arduino) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[114.317875] (diffdrive_arduino) StderrLine: {'line': b'compilation terminated.\n'}
+[114.318857] (diffdrive_arduino) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/diffdrive_arduino.dir/build.make:76: CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o] Error 1\n'}
+[114.319678] (diffdrive_arduino) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[114.321170] (diffdrive_arduino) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/fake_robot.dir/build.make:76: CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o] Error 1\n'}
+[114.322097] (diffdrive_arduino) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/fake_robot.dir/all] Error 2\n'}
+[114.322438] (diffdrive_arduino) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[114.399635] (-) TimerEvent: {}
+[114.410700] (diffdrive_arduino) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/diffdrive_arduino.dir/all] Error 2\n'}
+[114.412168] (diffdrive_arduino) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[114.419588] (diffdrive_arduino) CommandEnded: {'returncode': 2}
+[114.450294] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 2}
+[114.464243] (-) EventReactorShutdown: {}

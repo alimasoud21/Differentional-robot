@@ -1,0 +1,423 @@
+[0.000000] (-) TimerEvent: {}
+[0.002360] (-) JobUnselected: {'identifier': 'articubot_one'}
+[0.003766] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.003978] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict()}
+[0.004032] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[0.098019] (-) TimerEvent: {}
+[0.199605] (-) TimerEvent: {}
+[0.300680] (-) TimerEvent: {}
+[0.402196] (-) TimerEvent: {}
+[0.503035] (-) TimerEvent: {}
+[0.604345] (-) TimerEvent: {}
+[0.706476] (-) TimerEvent: {}
+[0.738610] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[0.747585] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino'], 'cwd': '/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ali'), ('GIT_ASKPASS', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ali'), ('OLDPWD', '/home/ali/Differentional-robot/Differentional_robot_ws'), ('TERM_PROGRAM_VERSION', '1.117.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-1d56388b-5753-492d-b217-281e8894a356.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install:/home/ali/perceptron_ws/install:/mnt/c/Users/HP/perceptron_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ali'), ('NAME', 'hp'), ('WSL_INTEROP', '/run/WSL/17641_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ali/.vscode-server/bin/10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/bin/remote-cli:/home/ali/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ali/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-89b18544f1e46270.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/ali/.vscode-server/data/User/workspaceStorage/7522c7d0837fdf182a01af5027fd8942/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af6d472efb.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros:/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one:/home/ali/perceptron_ws/install/rplidar_ros:/home/ali/perceptron_ws/install/perceptron_driver:/home/ali/perceptron_ws/install/my_robot_slam:/home/ali/perceptron_ws/install/amr:/mnt/c/Users/HP/perceptron_ws/install/rplidar_ros:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/my_robot_slam:/mnt/c/Users/HP/perceptron_ws/install/amr:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ali/perceptron_ws/build/perceptron_driver:/home/ali/perceptron_ws/install/perceptron_driver/lib/python3.10/site-packages:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ali/Differentional-robot/Differentional_robot_ws/install/rplidar_ros:/home/ali/Differentional-robot/Differentional_robot_ws/install/articubot_one:/home/ali/perceptron_ws/install/rplidar_ros:/home/ali/perceptron_ws/install/my_robot_slam:/home/ali/perceptron_ws/install/amr:/mnt/c/Users/HP/perceptron_ws/install/rplidar_ros:/mnt/c/Users/HP/perceptron_ws/install/my_robot_slam:/mnt/c/Users/HP/perceptron_ws/install/amr:/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.806976] (-) TimerEvent: {}
+[0.907652] (-) TimerEvent: {}
+[1.008624] (-) TimerEvent: {}
+[1.110925] (-) TimerEvent: {}
+[1.212151] (-) TimerEvent: {}
+[1.313285] (-) TimerEvent: {}
+[1.414566] (-) TimerEvent: {}
+[1.516094] (-) TimerEvent: {}
+[1.617000] (-) TimerEvent: {}
+[1.717887] (-) TimerEvent: {}
+[1.819104] (-) TimerEvent: {}
+[1.920102] (-) TimerEvent: {}
+[2.021264] (-) TimerEvent: {}
+[2.122392] (-) TimerEvent: {}
+[2.223112] (-) TimerEvent: {}
+[2.324415] (-) TimerEvent: {}
+[2.347986] (diffdrive_arduino) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.424652] (-) TimerEvent: {}
+[2.525609] (-) TimerEvent: {}
+[2.626653] (-) TimerEvent: {}
+[2.727669] (-) TimerEvent: {}
+[2.828392] (-) TimerEvent: {}
+[2.929255] (-) TimerEvent: {}
+[3.030435] (-) TimerEvent: {}
+[3.131308] (-) TimerEvent: {}
+[3.232200] (-) TimerEvent: {}
+[3.299225] (diffdrive_arduino) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.332675] (-) TimerEvent: {}
+[3.433734] (-) TimerEvent: {}
+[3.534900] (-) TimerEvent: {}
+[3.635911] (-) TimerEvent: {}
+[3.736875] (-) TimerEvent: {}
+[3.837822] (-) TimerEvent: {}
+[3.846976] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.938100] (-) TimerEvent: {}
+[4.038980] (-) TimerEvent: {}
+[4.139819] (-) TimerEvent: {}
+[4.210290] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.231842] (diffdrive_arduino) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.232558] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.235135] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.240107] (-) TimerEvent: {}
+[4.244337] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.340410] (-) TimerEvent: {}
+[4.441487] (-) TimerEvent: {}
+[4.542457] (-) TimerEvent: {}
+[4.610183] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.632953] (diffdrive_arduino) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.634769] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.636590] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.642831] (-) TimerEvent: {}
+[4.743634] (-) TimerEvent: {}
+[4.844494] (-) TimerEvent: {}
+[4.945466] (-) TimerEvent: {}
+[5.046614] (-) TimerEvent: {}
+[5.147543] (-) TimerEvent: {}
+[5.248462] (-) TimerEvent: {}
+[5.349604] (-) TimerEvent: {}
+[5.450704] (-) TimerEvent: {}
+[5.551859] (-) TimerEvent: {}
+[5.653056] (-) TimerEvent: {}
+[5.754174] (-) TimerEvent: {}
+[5.855250] (-) TimerEvent: {}
+[5.956273] (-) TimerEvent: {}
+[6.057374] (-) TimerEvent: {}
+[6.104093] (diffdrive_arduino) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.157616] (-) TimerEvent: {}
+[6.258569] (-) TimerEvent: {}
+[6.359601] (-) TimerEvent: {}
+[6.460599] (-) TimerEvent: {}
+[6.561685] (-) TimerEvent: {}
+[6.662924] (-) TimerEvent: {}
+[6.764105] (-) TimerEvent: {}
+[6.865204] (-) TimerEvent: {}
+[6.966040] (-) TimerEvent: {}
+[7.067078] (-) TimerEvent: {}
+[7.167837] (-) TimerEvent: {}
+[7.268993] (-) TimerEvent: {}
+[7.370000] (-) TimerEvent: {}
+[7.471214] (-) TimerEvent: {}
+[7.572215] (-) TimerEvent: {}
+[7.673031] (-) TimerEvent: {}
+[7.774012] (-) TimerEvent: {}
+[7.874949] (-) TimerEvent: {}
+[7.976122] (-) TimerEvent: {}
+[8.077424] (-) TimerEvent: {}
+[8.178363] (-) TimerEvent: {}
+[8.279451] (-) TimerEvent: {}
+[8.380354] (-) TimerEvent: {}
+[8.481494] (-) TimerEvent: {}
+[8.582594] (-) TimerEvent: {}
+[8.683516] (-) TimerEvent: {}
+[8.784658] (-) TimerEvent: {}
+[8.885725] (-) TimerEvent: {}
+[8.986825] (-) TimerEvent: {}
+[9.087980] (-) TimerEvent: {}
+[9.189148] (-) TimerEvent: {}
+[9.290164] (-) TimerEvent: {}
+[9.391390] (-) TimerEvent: {}
+[9.492224] (-) TimerEvent: {}
+[9.593148] (-) TimerEvent: {}
+[9.694003] (-) TimerEvent: {}
+[9.794873] (-) TimerEvent: {}
+[9.895893] (-) TimerEvent: {}
+[9.997050] (-) TimerEvent: {}
+[10.098011] (-) TimerEvent: {}
+[10.198878] (-) TimerEvent: {}
+[10.299952] (-) TimerEvent: {}
+[10.400719] (-) TimerEvent: {}
+[10.501698] (-) TimerEvent: {}
+[10.602753] (-) TimerEvent: {}
+[10.703553] (-) TimerEvent: {}
+[10.804749] (-) TimerEvent: {}
+[10.905830] (-) TimerEvent: {}
+[11.007089] (-) TimerEvent: {}
+[11.108225] (-) TimerEvent: {}
+[11.209080] (-) TimerEvent: {}
+[11.310096] (-) TimerEvent: {}
+[11.411211] (-) TimerEvent: {}
+[11.512405] (-) TimerEvent: {}
+[11.613491] (-) TimerEvent: {}
+[11.714760] (-) TimerEvent: {}
+[11.815986] (-) TimerEvent: {}
+[11.917014] (-) TimerEvent: {}
+[12.018444] (-) TimerEvent: {}
+[12.119374] (-) TimerEvent: {}
+[12.220500] (-) TimerEvent: {}
+[12.321457] (-) TimerEvent: {}
+[12.422571] (-) TimerEvent: {}
+[12.523575] (-) TimerEvent: {}
+[12.624782] (-) TimerEvent: {}
+[12.725892] (-) TimerEvent: {}
+[12.827046] (-) TimerEvent: {}
+[12.927916] (-) TimerEvent: {}
+[13.028997] (-) TimerEvent: {}
+[13.129978] (-) TimerEvent: {}
+[13.231047] (-) TimerEvent: {}
+[13.332214] (-) TimerEvent: {}
+[13.433335] (-) TimerEvent: {}
+[13.534257] (-) TimerEvent: {}
+[13.554151] (diffdrive_arduino) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[13.634548] (-) TimerEvent: {}
+[13.735975] (-) TimerEvent: {}
+[13.836912] (-) TimerEvent: {}
+[13.937539] (-) TimerEvent: {}
+[14.038416] (-) TimerEvent: {}
+[14.139291] (-) TimerEvent: {}
+[14.240053] (-) TimerEvent: {}
+[14.341015] (-) TimerEvent: {}
+[14.441758] (-) TimerEvent: {}
+[14.542784] (-) TimerEvent: {}
+[14.643831] (-) TimerEvent: {}
+[14.744866] (-) TimerEvent: {}
+[14.846228] (-) TimerEvent: {}
+[14.947657] (-) TimerEvent: {}
+[15.048899] (-) TimerEvent: {}
+[15.099757] (diffdrive_arduino) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[15.149199] (-) TimerEvent: {}
+[15.250313] (-) TimerEvent: {}
+[15.351362] (-) TimerEvent: {}
+[15.452101] (-) TimerEvent: {}
+[15.553287] (-) TimerEvent: {}
+[15.654365] (-) TimerEvent: {}
+[15.755208] (-) TimerEvent: {}
+[15.856315] (-) TimerEvent: {}
+[15.957315] (-) TimerEvent: {}
+[16.058346] (-) TimerEvent: {}
+[16.159384] (-) TimerEvent: {}
+[16.260268] (-) TimerEvent: {}
+[16.361319] (-) TimerEvent: {}
+[16.462250] (-) TimerEvent: {}
+[16.563014] (-) TimerEvent: {}
+[16.663868] (-) TimerEvent: {}
+[16.764967] (-) TimerEvent: {}
+[16.866087] (-) TimerEvent: {}
+[16.966885] (-) TimerEvent: {}
+[17.067863] (-) TimerEvent: {}
+[17.168982] (-) TimerEvent: {}
+[17.269846] (-) TimerEvent: {}
+[17.370951] (-) TimerEvent: {}
+[17.472165] (-) TimerEvent: {}
+[17.573188] (-) TimerEvent: {}
+[17.674196] (-) TimerEvent: {}
+[17.775337] (-) TimerEvent: {}
+[17.876656] (-) TimerEvent: {}
+[17.977758] (-) TimerEvent: {}
+[18.078828] (-) TimerEvent: {}
+[18.179624] (-) TimerEvent: {}
+[18.280547] (-) TimerEvent: {}
+[18.382113] (-) TimerEvent: {}
+[18.483352] (-) TimerEvent: {}
+[18.584356] (-) TimerEvent: {}
+[18.685673] (-) TimerEvent: {}
+[18.786830] (-) TimerEvent: {}
+[18.887837] (-) TimerEvent: {}
+[18.989043] (-) TimerEvent: {}
+[19.089975] (-) TimerEvent: {}
+[19.191262] (-) TimerEvent: {}
+[19.292245] (-) TimerEvent: {}
+[19.393200] (-) TimerEvent: {}
+[19.494442] (-) TimerEvent: {}
+[19.595549] (-) TimerEvent: {}
+[19.696449] (-) TimerEvent: {}
+[19.797461] (-) TimerEvent: {}
+[19.898474] (-) TimerEvent: {}
+[19.999268] (-) TimerEvent: {}
+[20.100153] (-) TimerEvent: {}
+[20.201151] (-) TimerEvent: {}
+[20.302073] (-) TimerEvent: {}
+[20.403176] (-) TimerEvent: {}
+[20.504206] (-) TimerEvent: {}
+[20.605248] (-) TimerEvent: {}
+[20.706385] (-) TimerEvent: {}
+[20.807493] (-) TimerEvent: {}
+[20.908337] (-) TimerEvent: {}
+[21.009160] (-) TimerEvent: {}
+[21.110357] (-) TimerEvent: {}
+[21.211341] (-) TimerEvent: {}
+[21.312290] (-) TimerEvent: {}
+[21.413321] (-) TimerEvent: {}
+[21.514499] (-) TimerEvent: {}
+[21.615220] (-) TimerEvent: {}
+[21.716160] (-) TimerEvent: {}
+[21.817264] (-) TimerEvent: {}
+[21.918373] (-) TimerEvent: {}
+[22.019114] (-) TimerEvent: {}
+[22.120312] (-) TimerEvent: {}
+[22.221366] (-) TimerEvent: {}
+[22.322520] (-) TimerEvent: {}
+[22.423597] (-) TimerEvent: {}
+[22.525046] (-) TimerEvent: {}
+[22.626002] (-) TimerEvent: {}
+[22.726835] (-) TimerEvent: {}
+[22.827771] (-) TimerEvent: {}
+[22.928955] (-) TimerEvent: {}
+[23.030004] (-) TimerEvent: {}
+[23.131498] (-) TimerEvent: {}
+[23.232424] (-) TimerEvent: {}
+[23.333483] (-) TimerEvent: {}
+[23.434348] (-) TimerEvent: {}
+[23.535232] (-) TimerEvent: {}
+[23.636366] (-) TimerEvent: {}
+[23.737758] (-) TimerEvent: {}
+[23.838898] (-) TimerEvent: {}
+[23.939841] (-) TimerEvent: {}
+[24.040583] (-) TimerEvent: {}
+[24.141777] (-) TimerEvent: {}
+[24.242993] (-) TimerEvent: {}
+[24.344029] (-) TimerEvent: {}
+[24.445165] (-) TimerEvent: {}
+[24.546062] (-) TimerEvent: {}
+[24.647044] (-) TimerEvent: {}
+[24.747800] (-) TimerEvent: {}
+[24.849095] (-) TimerEvent: {}
+[24.949939] (-) TimerEvent: {}
+[25.050713] (-) TimerEvent: {}
+[25.151745] (-) TimerEvent: {}
+[25.252599] (-) TimerEvent: {}
+[25.353638] (-) TimerEvent: {}
+[25.454774] (-) TimerEvent: {}
+[25.556114] (-) TimerEvent: {}
+[25.656999] (-) TimerEvent: {}
+[25.757909] (-) TimerEvent: {}
+[25.858671] (-) TimerEvent: {}
+[25.959762] (-) TimerEvent: {}
+[26.061010] (-) TimerEvent: {}
+[26.162239] (-) TimerEvent: {}
+[26.263247] (-) TimerEvent: {}
+[26.364377] (-) TimerEvent: {}
+[26.465521] (-) TimerEvent: {}
+[26.566226] (-) TimerEvent: {}
+[26.667283] (-) TimerEvent: {}
+[26.768195] (-) TimerEvent: {}
+[26.869234] (-) TimerEvent: {}
+[26.970336] (-) TimerEvent: {}
+[27.071416] (-) TimerEvent: {}
+[27.172381] (-) TimerEvent: {}
+[27.273248] (-) TimerEvent: {}
+[27.374178] (-) TimerEvent: {}
+[27.475542] (-) TimerEvent: {}
+[27.576739] (-) TimerEvent: {}
+[27.677785] (-) TimerEvent: {}
+[27.778922] (-) TimerEvent: {}
+[27.880266] (-) TimerEvent: {}
+[27.981249] (-) TimerEvent: {}
+[28.082679] (-) TimerEvent: {}
+[28.183768] (-) TimerEvent: {}
+[28.284779] (-) TimerEvent: {}
+[28.385820] (-) TimerEvent: {}
+[28.486923] (-) TimerEvent: {}
+[28.588130] (-) TimerEvent: {}
+[28.689190] (-) TimerEvent: {}
+[28.790445] (-) TimerEvent: {}
+[28.891428] (-) TimerEvent: {}
+[28.992455] (-) TimerEvent: {}
+[29.093325] (-) TimerEvent: {}
+[29.194458] (-) TimerEvent: {}
+[29.295706] (-) TimerEvent: {}
+[29.396989] (-) TimerEvent: {}
+[29.497900] (-) TimerEvent: {}
+[29.599140] (-) TimerEvent: {}
+[29.700114] (-) TimerEvent: {}
+[29.801397] (-) TimerEvent: {}
+[29.902629] (-) TimerEvent: {}
+[30.003638] (-) TimerEvent: {}
+[30.104922] (-) TimerEvent: {}
+[30.206586] (-) TimerEvent: {}
+[30.307516] (-) TimerEvent: {}
+[30.408582] (-) TimerEvent: {}
+[30.509481] (-) TimerEvent: {}
+[30.610470] (-) TimerEvent: {}
+[30.711531] (-) TimerEvent: {}
+[30.812548] (-) TimerEvent: {}
+[30.913783] (-) TimerEvent: {}
+[31.014636] (-) TimerEvent: {}
+[31.115600] (-) TimerEvent: {}
+[31.216468] (-) TimerEvent: {}
+[31.317502] (-) TimerEvent: {}
+[31.418678] (-) TimerEvent: {}
+[31.519820] (-) TimerEvent: {}
+[31.621294] (-) TimerEvent: {}
+[31.722306] (-) TimerEvent: {}
+[31.823306] (-) TimerEvent: {}
+[31.924389] (-) TimerEvent: {}
+[32.025301] (-) TimerEvent: {}
+[32.126787] (-) TimerEvent: {}
+[32.227807] (-) TimerEvent: {}
+[32.328905] (-) TimerEvent: {}
+[32.429744] (-) TimerEvent: {}
+[32.530700] (-) TimerEvent: {}
+[32.631737] (-) TimerEvent: {}
+[32.732622] (-) TimerEvent: {}
+[32.833562] (-) TimerEvent: {}
+[32.934441] (-) TimerEvent: {}
+[33.035956] (-) TimerEvent: {}
+[33.136947] (-) TimerEvent: {}
+[33.237803] (-) TimerEvent: {}
+[33.338930] (-) TimerEvent: {}
+[33.439846] (-) TimerEvent: {}
+[33.540712] (-) TimerEvent: {}
+[33.642598] (-) TimerEvent: {}
+[33.743380] (-) TimerEvent: {}
+[33.844298] (-) TimerEvent: {}
+[33.945258] (-) TimerEvent: {}
+[34.046210] (-) TimerEvent: {}
+[34.147548] (-) TimerEvent: {}
+[34.248706] (-) TimerEvent: {}
+[34.349928] (-) TimerEvent: {}
+[34.451276] (-) TimerEvent: {}
+[34.552299] (-) TimerEvent: {}
+[34.653656] (-) TimerEvent: {}
+[34.754703] (-) TimerEvent: {}
+[34.855520] (-) TimerEvent: {}
+[34.956492] (-) TimerEvent: {}
+[35.057730] (-) TimerEvent: {}
+[35.158771] (-) TimerEvent: {}
+[35.259836] (-) TimerEvent: {}
+[35.360996] (-) TimerEvent: {}
+[35.461926] (-) TimerEvent: {}
+[35.562871] (-) TimerEvent: {}
+[35.663650] (-) TimerEvent: {}
+[35.764446] (-) TimerEvent: {}
+[35.865414] (-) TimerEvent: {}
+[35.966702] (-) TimerEvent: {}
+[36.067798] (-) TimerEvent: {}
+[36.168753] (-) TimerEvent: {}
+[36.269896] (-) TimerEvent: {}
+[36.370776] (-) TimerEvent: {}
+[36.471821] (-) TimerEvent: {}
+[36.572693] (-) TimerEvent: {}
+[36.673798] (-) TimerEvent: {}
+[36.774746] (-) TimerEvent: {}
+[36.875878] (-) TimerEvent: {}
+[36.976930] (-) TimerEvent: {}
+[37.077774] (-) TimerEvent: {}
+[37.179238] (-) TimerEvent: {}
+[37.280062] (-) TimerEvent: {}
+[37.381164] (-) TimerEvent: {}
+[37.482308] (-) TimerEvent: {}
+[37.583601] (-) TimerEvent: {}
+[37.684512] (-) TimerEvent: {}
+[37.785355] (-) TimerEvent: {}
+[37.886177] (-) TimerEvent: {}
+[37.987199] (-) TimerEvent: {}
+[38.088284] (-) TimerEvent: {}
+[38.170619] (diffdrive_arduino) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:15 (find_package):\n'}
+[38.171391] (diffdrive_arduino) StderrLine: {'line': b'  By not providing "Findserial.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[38.171798] (diffdrive_arduino) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "serial", but\n'}
+[38.172099] (diffdrive_arduino) StderrLine: {'line': b'  CMake did not find one.\n'}
+[38.172617] (diffdrive_arduino) StderrLine: {'line': b'\n'}
+[38.173157] (diffdrive_arduino) StderrLine: {'line': b'  Could not find a package configuration file provided by "serial" with any\n'}
+[38.173720] (diffdrive_arduino) StderrLine: {'line': b'  of the following names:\n'}
+[38.174271] (diffdrive_arduino) StderrLine: {'line': b'\n'}
+[38.175023] (diffdrive_arduino) StderrLine: {'line': b'    serialConfig.cmake\n'}
+[38.175348] (diffdrive_arduino) StderrLine: {'line': b'    serial-config.cmake\n'}
+[38.175779] (diffdrive_arduino) StderrLine: {'line': b'\n'}
+[38.176148] (diffdrive_arduino) StderrLine: {'line': b'  Add the installation prefix of "serial" to CMAKE_PREFIX_PATH or set\n'}
+[38.176824] (diffdrive_arduino) StderrLine: {'line': b'  "serial_DIR" to a directory containing one of the above files.  If "serial"\n'}
+[38.178379] (diffdrive_arduino) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[38.178774] (diffdrive_arduino) StderrLine: {'line': b'  installed.\n'}
+[38.179087] (diffdrive_arduino) StderrLine: {'line': b'\n'}
+[38.179291] (diffdrive_arduino) StderrLine: {'line': b'\x1b[0m\n'}
+[38.179497] (diffdrive_arduino) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[38.179977] (diffdrive_arduino) StdoutLine: {'line': b'See also "/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino/CMakeFiles/CMakeOutput.log".\n'}
+[38.188186] (diffdrive_arduino) CommandEnded: {'returncode': 1}
+[38.194076] (-) TimerEvent: {}
+[38.297306] (-) TimerEvent: {}
+[38.306743] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 1}
+[38.315298] (-) EventReactorShutdown: {}

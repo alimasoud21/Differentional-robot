@@ -1,0 +1,47 @@
+[2.090s] Invoking command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble /usr/bin/cmake --build /home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino -- -j4 -l4
+[2.334s] [ 50%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o[0m
+[21.033s] [100%] [32m[1mLinking CXX shared library libdiffdrive_arduino.so[0m
+[21.962s] [100%] Built target diffdrive_arduino
+[22.015s] Invoked command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble /usr/bin/cmake --build /home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino -- -j4 -l4
+[22.022s] Invoking command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble /usr/bin/cmake --install /home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino
+[22.036s] -- Install configuration: ""
+[22.037s] -- Execute custom install script
+[22.040s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino//diffdrive_arduino.xml
+[22.065s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/arduino_comms.hpp
+[22.095s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/diffbot_system.hpp
+[22.118s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/visibility_control.h
+[22.141s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/wheel.hpp
+[22.167s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/view_robot.launch.py
+[22.194s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control/diffbot.ros2_control.xacro
+[22.225s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.materials.xacro
+[22.254s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.urdf.xacro
+[22.283s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot_description.urdf.xacro
+[22.319s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot.rviz
+[22.345s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot_view.rviz
+[22.404s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/diffbot.launch.py
+[22.436s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/config/diffbot_controllers.yaml
+[22.470s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[22.502s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[22.534s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[22.559s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[22.589s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[22.626s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[22.652s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[22.677s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[22.744s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[22.750s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[22.825s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[22.861s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[22.898s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[22.926s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[22.959s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[22.988s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_targets-extras.cmake
+[23.016s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.044s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[23.076s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[23.103s] -- Symlinking: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[23.134s] -- Installing: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[23.137s] -- Set runtime path of "/home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so" to ""
+[23.137s] -- Installing: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport.cmake
+[23.138s] -- Installing: /home/ali/Differentional-robot/Differentional_robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport-noconfig.cmake
+[23.155s] Invoked command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble /usr/bin/cmake --install /home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino
