@@ -65,6 +65,7 @@ def generate_launch_description():
                          'serial_baudrate': serial_baudrate,
                          'frame_id': frame_id,
                          'inverted': inverted,
+                         'use_sim_time': False,
                          'angle_compensate': angle_compensate}],
             output='screen'),
     ])

@@ -1,53 +1,68 @@
 controller_manager:
   ros__parameters:
-    update_rate: 50 # Increased from Josh's 30 to match your old 50Hz control loop
-    # use_sim_time: false # Keep commented or set to false for your real Arduino Mega
+    update_rate: 30
+    # use_sim_time: true
 
     diff_cont:
       type: diff_drive_controller/DiffDriveController
-      ros__parameters:
-        base_frame_id: base_footprint 
-    
+
     joint_broad:
-        type: joint_state_broadcaster/JointStateBroadcaster
+      type: joint_state_broadcaster/JointStateBroadcaster
 
 diff_cont:
   ros__parameters:
+
     publish_rate: 50.0
 
-    odom_topic: odom  
-
-    # Using Josh's frame structure to ensure his standard URDF works out of the box
     base_frame_id: base_footprint
-    
-    # Brought over from your old config so your Nav2 stack knows where odometry is
-    odom_frame_id: odom
-    enable_odom_tf: true
 
-    # IMPORTANT: We are using Josh's default joint names here. 
-    # When we edit robot_core.xacro, we must name the joints exactly this.
     left_wheel_names: ['left_wheel_joint']
     right_wheel_names: ['right_wheel_joint']
-    
-    # Injected your specific physical AMR dimensions
     wheel_separation: 0.52993
     wheel_radius: 0.065
 
     use_stamped_vel: false
 
-    # Injected your safe velocity and acceleration limits for the heavy payload
-    linear:
-      x:
-        has_velocity_limits    : true
-        max_velocity           : 0.5
-        min_velocity           : -0.5
-        has_acceleration_limits: true
-        max_acceleration       : 1.0
+    # open_loop: false    
 
-    angular:
-      z:
-        has_velocity_limits    : true
-        max_velocity           : 1.0
-        min_velocity           : -1.0 # Standardized inverse based on your max
-        has_acceleration_limits: true
-        max_acceleration       : 2.0
+    # wheels_per_side: x
+    # wheel_separation_multiplier: x
+    # left_wheel_radius_multiplier: x
+    # right_wheel_radius_multiplier: x
+
+    # odom_frame_id: x
+    # pose_covariance_diagonal: x
+    # twist_covariance_diagonal: x
+    # open_loop: x
+    # enable_odom_tf: x
+
+    # cmd_vel_timeout: x
+    # publish_limited_velocity: x
+    # velocity_rolling_window_size: x
+    
+
+    # linear.x.has_velocity_limits: false
+    # linear.x.has_acceleration_limits: false
+    # linear.x.has_jerk_limits: false
+    # linear.x.max_velocity: NAN
+    # linear.x.min_velocity: NAN
+    # linear.x.max_acceleration: NAN
+    # linear.x.min_acceleration: NAN
+    # linear.x.max_jerk: NAN
+    # linear.x.min_jerk: NAN
+
+    # angular.z.has_velocity_limits: false
+    # angular.z.has_acceleration_limits: false
+    # angular.z.has_jerk_limits: false
+    # angular.z.max_velocity: NAN
+    # angular.z.min_velocity: NAN
+    # angular.z.max_acceleration: NAN
+    # angular.z.min_acceleration: NAN
+    # angular.z.max_jerk: NAN
+    # angular.z.min_jerk: NAN
+
+
+
+
+# joint_broad:
+#   ros__parameters:

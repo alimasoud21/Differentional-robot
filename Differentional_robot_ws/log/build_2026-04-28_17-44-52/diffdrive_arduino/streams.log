@@ -1,0 +1,33 @@
+[2.412s] Invoking command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino -- -j4 -l4
+[2.656s] [35m[1mConsolidate compiler generated dependencies of target diffdrive_arduino[0m
+[2.935s] [ 50%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o[0m
+[3.772s] In file included from [01m[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/diffbot_system.hpp:34[m[K,
+[3.772s]                  from [01m[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:15[m[K:
+[3.773s] [01m[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp:60:36:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[3.774s]    60 |     serial_conn_.Write(msg_to_send [01;35m[K"[m[K);
+[3.774s]       |                                    [01;35m[K^[m[K
+[3.775s] [01m[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp:60:36:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+[3.776s]    60 |     serial_conn_.Write(msg_to_send [01;31m[K");[m[K
+[3.776s]       |                                    [01;31m[K^~~[m[K
+[6.559s] In file included from [01m[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/diffbot_system.hpp:34[m[K,
+[6.560s]                  from [01m[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:15[m[K:
+[6.562s] [01m[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp:[m[K In member function ‘[01m[Kstd::string ArduinoComms::send_msg(const string&, bool)[m[K’:
+[6.562s] [01m[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp:62:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kstd[m[K’
+[6.563s]    62 |     [01;31m[Kstd[m[K::string response = "";
+[6.563s]       |     [01;31m[K^~~[m[K
+[6.565s] [01m[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp:60:23:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[6.565s]    60 |     serial_conn_.Write[01;36m[K([m[Kmsg_to_send ");
+[6.566s]       |                       [01;36m[K^[m[K
+[6.575s] [01m[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp:66:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+[6.576s]    66 |       serial_conn_.ReadLine([01;31m[Kresponse[m[K, '\n', timeout_ms_);
+[6.577s]       |                             [01;31m[K^~~~~~~~[m[K
+[6.597s] [01m[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp:77:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+[6.597s]    77 |       std::cout << "Sent: " << msg_to_send << " Recv: " << [01;31m[Kresponse[m[K << std::endl;
+[6.598s]       |                                                            [01;31m[K^~~~~~~~[m[K
+[6.608s] [01m[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp:80:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+[6.609s]    80 |     return [01;31m[Kresponse[m[K;
+[6.610s]       |            [01;31m[K^~~~~~~~[m[K
+[15.395s] gmake[2]: *** [CMakeFiles/diffdrive_arduino.dir/build.make:76: CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o] Error 1
+[15.397s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/diffdrive_arduino.dir/all] Error 2
+[15.397s] gmake: *** [Makefile:146: all] Error 2
+[15.404s] Invoked command in '/home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino' returned '2': CMAKE_PREFIX_PATH=/home/ali/perceptron_ws/install/perceptron_driver:/mnt/c/Users/HP/perceptron_ws/install/perceptron_driver:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ali/Differentional-robot/Differentional_robot_ws/build/diffdrive_arduino -- -j4 -l4

@@ -1,0 +1,29 @@
+In file included from [01m[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/diffbot_system.hpp:34[m[K,
+                 from [01m[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:15[m[K:
+[01m[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp:60:36:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   60 |     serial_conn_.Write(msg_to_send [01;35m[K"[m[K);
+      |                                    [01;35m[K^[m[K
+[01m[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp:60:36:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+   60 |     serial_conn_.Write(msg_to_send [01;31m[K");[m[K
+      |                                    [01;31m[K^~~[m[K
+In file included from [01m[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/diffbot_system.hpp:34[m[K,
+                 from [01m[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:15[m[K:
+[01m[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp:[m[K In member function ‘[01m[Kstd::string ArduinoComms::send_msg(const string&, bool)[m[K’:
+[01m[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp:62:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kstd[m[K’
+   62 |     [01;31m[Kstd[m[K::string response = "";
+      |     [01;31m[K^~~[m[K
+[01m[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp:60:23:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   60 |     serial_conn_.Write[01;36m[K([m[Kmsg_to_send ");
+      |                       [01;36m[K^[m[K
+[01m[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp:66:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+   66 |       serial_conn_.ReadLine([01;31m[Kresponse[m[K, '\n', timeout_ms_);
+      |                             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp:77:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+   77 |       std::cout << "Sent: " << msg_to_send << " Recv: " << [01;31m[Kresponse[m[K << std::endl;
+      |                                                            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ali/Differentional-robot/Differentional_robot_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp:80:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+   80 |     return [01;31m[Kresponse[m[K;
+      |            [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/diffdrive_arduino.dir/build.make:76: CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/diffdrive_arduino.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
